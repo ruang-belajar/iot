@@ -44,4 +44,18 @@ Terdapat 4 model konektivitas pada perangkat IoT:
 *   **Device-to-Gateway**\
     Sebelum terhubung ke cloud, perangkat IoT dapat berkomunikasi terlebih dahulu dengan perangkat gateway perantara. Gateway dapat menerjemahkan protokol dan menambahkan lapisan keamanan tambahan untuk seluruh sistem IoT. Dalam kasus smart home, misalnya, semua perangkat pintar dapat dihubungkan ke hub (gateway) yang membantu perangkat berbeda untuk bekerja bersama meskipun memiliki protokol koneksi yang berbeda.
 *   **Back-End Data-Sharing**\
-    Adalah perpanjangan dari model device-to-cloud, model ini memungkinkan pengguna untuk mendapatkan akses ke dan menganalisis koleksi data dari smart devices berbeda. Perusahaan, misalnya, dapat menggunakan model ini untuk mengakses informasi dari semua perangkat yang bekerja di dalam gedung perusahaan sebagaimana diatur bersama di dalam cloud. Model ini juga membantu mengurangi masalah dengan portabilitas dat
+    Adalah perpanjangan dari model device-to-cloud, model ini memungkinkan pengguna untuk mendapatkan akses ke dan menganalisis koleksi data dari smart devices berbeda. Perusahaan, misalnya, dapat menggunakan model ini untuk mengakses informasi dari semua perangkat yang bekerja di dalam gedung perusahaan sebagaimana diatur bersama di dalam cloud. Model ini juga membantu mengurangi masalah dengan portabilitas data.
+
+## Keuntungan IoT Bagi Organisasi
+IoT menawarkan beberapa manfaat bagi organisasi. Beberapa manfaat hanya khusus untuk industri tertentu dan beberapa lainnya berlaku untuk berbagai macam industri. Beberapa manfaat umum dari kemampuan IoT bagi bisnis antara lain:
+-   Memantau keseluruhan proses bisnis mereka
+-   Meningkatkan pengalaman pelanggan (_customer experience_)
+-   Menghemat waktu dan biaya
+-   Meningkatkan produktivitas karyawan
+-   Integrasi dan adaptasi model bisnis
+-   Membuat keputusan bisnis yang lebih baik
+-   Menghasilkan lebih banyak pendapatan
+
+IoT mendorong perusahaan untuk berpikir ulang bagaimana cara mereka melakukan pendekatan bisnis dan memberi alat untuk meningkatkan strategi bisnis mereka. Saat ini, IoT paling banyak diterapkan pada organisasi manufaktur, transportasi dan utilitas, tidak menutup kemungkinan untuk bidang pertanian, infrastruktur dan industri otomasi rumah, yang mana IoT telah memimpin beberapa organisasi menuju transformasi digital. Pada kasus lain, IoT dapat menguntungkan petani di bidang pertanian (agriculture) karena menjadikan pekerjaan mereka lebih mudah. Dengan sensor, dapat dikumpulkan data tentang curah hujan, kelembaban, suhu, kandungan tanah, serta faktor-faktor lain yang akan membantu mengotomatiskan teknik bercocok tanam. Kemampuan memantau operasi infrastruktur di sekitarnya juga merupakan faktor yang dapat dibantu oleh IoT. Sensor dapat digunakan untuk memantau peristiwa atau perubahan dalam bangunan struktural, jembatan dan infrastruktur lainnya. Ini akan membawa manfaat seperti penghematan biaya dan waktu,9 perubahan alur kerja menjadi lebih berkualitas dan alur kerja tanpa kertas.
+
+Bisnis otomasi rumah dapat memanfaatkan IoT untuk memantau dan memanipulasi sistem mekanik dan listrik di sebuah gedung. Dalam skala yang lebih luas, kota pintar (_smart city_) dapat membantu warga mengurangi limbah dan konsumsi energi. Kesimpulannya, IoT menyentuh setiap industri, termasuk bisnis di bidang kesehatan, keuangan, ritel, dan manufaktur.
