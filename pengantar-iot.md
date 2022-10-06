@@ -5,7 +5,9 @@ membuat proses produksi semakin efisien dengan kualitas produk lebih baik, sehin
 
 Beberapa teknologi yang berperan dalam industri 4.0, antara lain advanced robotic, additive manufacturing, augmented reality, simulation, horizonal/vertical integration, industrial internet, cloud, cyber security, big data dan analytics.
 
-![](res/tren-industri-4.0.png)
+<p align=center width=100%>
+<img src="res/tren-industri-4.0.png">
+</p>
 
 Begitu pula dengan IoT (internet of things) yang merupakan bagian dari teknologi digitalisasi revolusi industri empat yang sedang tren saat ini dan akan datang. IoT bersifat interdisipliner, artinya IoT dapat melibatkan berbagai bidang ilmu sekaligus, misalnya elektronika digital & analog, sistem kontrol, perangkat lunak, sistem informasi, database, jaringan, cyber security, cyber physical system, sytem on chip dan lain-lain. Oleh karena itu, penting bagi kita untuk mempelajari IoT dengan pertimbangan berbagai tantangan dan peluang kedepan yang semakin kompleks, dimana persaingan tidak hanya dikuasai oleh orang yang hanya ahli di satu bidang. Sebagai contoh bidang elektronik atau bidang teknologi informasi saja, tetapi berbagai jenis bidang yang saling memberi kontribusi satu sama lain seperti yang dijelaskan pada bagian di atas.
 
