@@ -47,10 +47,9 @@ Perubahan-perubahan ini juga berdampak pada hilangnya keistimewaan para bangsawa
 
 Selain itu, adanya mesin uap membuat produksi besar-besaran bukan hanya monopoli dari para tuan tanah yang memiliki ladang atau sawah berhektar-hektar. Kini orang-orang kaya yang memiliki mesin-mesin uap bisa memproduksi barang, padahal tanah mereka tak seberapa dibandingkan tanah para bangsawan ini. Orang-orang biasa juga bisa memproduksi barang tanpa memiliki tanah pertanian. Pada akhirnya, orang-orang bisa menjadi kaya tanpa gelar bangsawan.
 
-<p align=center>
-  <img src="res/ri-mesin-uap.jpg">
-  <div style="max-width:400px">mesin uap Watt, yang menjadi pijakan untuk revolusi industri pertama.</div>
-</p>
+| ![](res/ri-mesin-uap.jpg) |
+| :--: |
+| mesin uap Watt, yang menjadi pijakan untuk revolusi industri pertama. |
 
 Di balik besarnya sisi positif, revolusi industri 1.0 juga memberikan dampak negatif. Selain pencemaran lingkungan akibat asap mesin uap dan limbah-limbah pabrik lainnya, penjajahan di seluruh dunia turut merajalela. Pasalnya, tanpa mesin uap, Imperialis Eropa takkan bisa menaklukkan Asia dan Afrika secepat dan semudah ini.
 
