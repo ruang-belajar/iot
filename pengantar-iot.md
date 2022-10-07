@@ -61,3 +61,31 @@ IoT menawarkan beberapa manfaat bagi organisasi. Beberapa manfaat hanya khusus u
 IoT mendorong perusahaan untuk berpikir ulang bagaimana cara mereka melakukan pendekatan bisnis dan memberi alat untuk meningkatkan strategi bisnis mereka. Saat ini, IoT paling banyak diterapkan pada organisasi manufaktur, transportasi dan utilitas, tidak menutup kemungkinan untuk bidang pertanian, infrastruktur dan industri otomasi rumah, yang mana IoT telah memimpin beberapa organisasi menuju transformasi digital. Pada kasus lain, IoT dapat menguntungkan petani di bidang pertanian (agriculture) karena menjadikan pekerjaan mereka lebih mudah. Dengan sensor, dapat dikumpulkan data tentang curah hujan, kelembaban, suhu, kandungan tanah, serta faktor-faktor lain yang akan membantu mengotomatiskan teknik bercocok tanam. Kemampuan memantau operasi infrastruktur di sekitarnya juga merupakan faktor yang dapat dibantu oleh IoT. Sensor dapat digunakan untuk memantau peristiwa atau perubahan dalam bangunan struktural, jembatan dan infrastruktur lainnya. Ini akan membawa manfaat seperti penghematan biaya dan waktu,9 perubahan alur kerja menjadi lebih berkualitas dan alur kerja tanpa kertas.
 
 Bisnis otomasi rumah dapat memanfaatkan IoT untuk memantau dan memanipulasi sistem mekanik dan listrik di sebuah gedung. Dalam skala yang lebih luas, kota pintar (_smart city_) dapat membantu warga mengurangi limbah dan konsumsi energi. Kesimpulannya, IoT menyentuh setiap industri, termasuk bisnis di bidang kesehatan, keuangan, ritel, dan manufaktur.
+
+##Pro dan Kontra Teknologi IoT
+Beberapa keuntungan IoT meliputi:
+- Kemampuan untuk mengakses informasi dari mana saja kapan saja dari perangkat apa pun.
+- Peningkatan komunikasi antar perangkat elektronik yang terhubung.
+- Mentransfer paket data melalui jaringan yang terhubung akan
+menghemat waktu dan biaya.
+- Mengotomasi tugas-tugas untuk membantu meningkatkan kualitas layanan bisnis dan mengurangi kebutuhan intervensi manusia.
+Beberapa kelemahan IoT meliputi:
+- Dengan meningkatnya jumlah perangkat yang terhubung dan lebih banyaknya informasi yang dibagikan antar perangkat maka potensi pencurian informasi rahasia oleh peretas juga meningkat.
+- Perusahaan pada akhirnya berurusan dengan sejumlah besar - mungkin bahkan jutaan - perangkat IoT, mengumpulkan dan mengelola data dari semua perangkat tersebut akan menjadi tantangan.
+- Jika terdapat bug dalam sistem maka kemungkinan setiap perangkat yang terhubung akan rusak.
+- Karena tidak ada standar internasional mengenai kompatibilitas IoT maka sulit bagi perangkat dari produsen berbeda untuk berkomunikasi satu sama lain.
+
+## Isu Berkaitan Dengan IoT
+IoT adalah teknologi yang relatif baru dan berkembang. Berikut ini adalah beberapa aspek dimana IoT terus menghadapi beberapa masalah.
+- Standar dan Regulasi
+  Semakin banyaknya perangkat yang terhubung membuat standarisasi dan regulasi IoT menjadi urusan yang rumit. Masalah standardisasi dan regulasi berkisar dari masalah teknis hingga masalah hukum. Sebagai contoh, perangkat pintar berbeda dapat menggunakan berbagai protokol komunikasi nirkabel berbeda pula, misalnya Bluetooth, Wi-Fi, Zigbee, dan 5G yang menghambat komunikasi dalam sistem IoT. Di sisi lain, kurangnya regulasi yang menyoroti isu terkait internet saat ini akan menambah lapisan kerumitan lain untuk isu ini. Salah satu contoh adalah menentukan akuntabilitas: Jika ada cacat dan pelanggaran terkait penggunaan perangkat IoT, kurangnya regulasi membuat akuntabilitas sulit ditentukan. Standar dan peraturan memengaruhi kualitas layanan keseluruhan yang diberikan teknologi IoT, oleh karena itu menjadi perhatian semua pemangku kepentingan IoT, baik itu pengguna individu, produsen perangkat, atau organisasi yang mengintegrasikan teknologi ke dalam proses mereka.
+- Privasi
+  Kesadaran privasi telah tumbuh seiring meningkatnya keragaman informasi pribadi yang dibagikan melalui internet. Dengan adanya IoT maka akan semakin rumit masalah ini karena luasnya jenis data yang direkam dan dibagikan melalui internet. Karena IoT bekerja lebih baik dengan mendapatkan data sedetil mungkin tentang lingkungan, terjadilah trade-off (untung rugi) antara privasi pengguna dan kualitas layanan. Menentukan titik-titik dimana pengumpulan data harus dibatasi, atau bahkan menghentikan pengumpulan data sekaligus karena masalah privasi pengguna juga sulit dicapai, apalagi sebagian besar sistem IoT bersifat otomatis.
+- Keamanan (Security)
+  Masalah keamanan akan selalu muncul ketika menangani data dan informasi yang terlibat. IoT menambahkan tantangan11 keamanannya sendiri dengan aksesnya ke berbagai informasi pribadi dan integrasinya yang erat ke dalam kegiatan individu dan organisasi. Karakteristik IoT ini menjadikan teknologi yang layak bagi penjahat cyber untuk ditarget. Selain itu, setiap pelanggaran, serangan, dan kerentanan pada satu perangkat IoT atau sistem akan melemahkan keamanan seluruh jaringan yang bersangkutan.
+
+Ancaman keamanan lain yang terkait dengan teknologi IoT meliputi:
+- Homogenitas perangkat pintar (smart devices) yang diproduksi secara massal, berarti penyebaran terhadap kerentanan yang mungkin sama bisa terjadi.
+- Otomasi sistem IoT membuatnya lebih sulit untuk mendeteksi kerentanan dan pelanggaran karena berkurangnya campur tangan manusia pada sistem.
+- Lingkungan dimana perangkat IoT dikerahkan membuat perangkat ini rentan terhadap ancaman fisik yang tidak terduga, penyerang dapat merusak perangkat secara langsung.
+- Interkoneksi sistem IoT menjadikan setiap bagian dari sistem menjadi jalan pelanggaran data dan serangan cyber, yang mana dapat menyebar ke seluruh jaringan yang terkena dampak
