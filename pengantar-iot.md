@@ -62,7 +62,7 @@ IoT mendorong perusahaan untuk berpikir ulang bagaimana cara mereka melakukan pe
 
 Bisnis otomasi rumah dapat memanfaatkan IoT untuk memantau dan memanipulasi sistem mekanik dan listrik di sebuah gedung. Dalam skala yang lebih luas, kota pintar (_smart city_) dapat membantu warga mengurangi limbah dan konsumsi energi. Kesimpulannya, IoT menyentuh setiap industri, termasuk bisnis di bidang kesehatan, keuangan, ritel, dan manufaktur.
 
-##Pro dan Kontra Teknologi IoT
+## Pro dan Kontra Teknologi IoT
 Beberapa keuntungan IoT meliputi:
 - Kemampuan untuk mengakses informasi dari mana saja kapan saja dari perangkat apa pun.
 - Peningkatan komunikasi antar perangkat elektronik yang terhubung.
