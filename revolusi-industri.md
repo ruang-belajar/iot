@@ -76,8 +76,10 @@ Para tukang yang tadinya mengerjakan banyak tugas bertransformasi menjadi spesia
 
 Produksi Ford Model T dipecah menjadi 45 pos, mobil-mobil tersebut kemudian dipindahkan ke setiap pos dengan conveyor belt, lalu dirakit secara serial. Misalnya, setelah dipasang ban dan lampunya, barulah dipasang mesin. Semua ini dilakukan dengan bantuan alat-alat yang menggunakan tenaga listrik, sehingga jauh lebih mudah dan murah dari pada tenaga uap.
 
-![Proses perakitan mobil Ford model T jauh lebih efisien dengan bantuan conveyor belt](res/ri-ford-2.jpg)
-
+| ![](res/ri-ford-2.jpg) |
+| :--: |
+| Proses perakitan mobil Ford model T jauh lebih efisien dengan bantuan conveyor belt. |
+  
 Perubahan ini pun berbuah manis. Penggunaan tenaga listrik, ban berjalan, dan lini produksi menurunkan waktu produksi secara drastis, kini sebuah Ford Model T bisa dirakit cuma dalam 95 menit.
 
 Akibatnya, produksi Ford Model T melonjak, dari sekitar 68 ribu mobil di tahun 1912, menjadi 170 ribuan mobil di tahun 1913, 200 ribuan mobil di tahun 1914, dan tumbuh terus sampai akhirnya menembus satu juta mobil per-tahunnya di tahun 1922.
@@ -172,16 +174,56 @@ Tantangannya masih banyak, misalnya koneksi internet yang belum universal dan ma
 
 Selain itu, koneksi internet berarti munculnya celah keamanan baru. Perusahaan saingan pasti berusaha mengintip kinerja dan rancangan produksi lewat celah keamanan komputer pengendali produksi yang kini bisa diakses dari internet.
 
-# Perkembangan Revolusi Industri sampai kapan?
-Saat ini, revolusi industri 4.0 sedang dibicarakan, dipersiapkan, diperdebatkan, dan dimulai. Melihat pola sejarah, akan terjadi perubahan besar di dunia.
 
-Jutaan pekerjaan lama yang semula mapan dan diandalkan akan menghilang. Jutaan pekerjaan baru yang sebelumnya tak terpikirkan, mungkin akan muncul.
+## Prinsip Rancangan Revolusi Industri 4.0
+Ada 4 prinsip yang bisa diimplementasikan suatu industri untuk menghadapi revolusi industri 4.0:
+- **Interkoneksi**
+  Prinsip pertama dalam revolusi industri generasi keempat adalah interkoneksi, atau hubungan antar manusia, alat dan mesin dalam melakukan komunikasi satu sama lain. Dengan internet of Things (IOT) dan Internet of People (IOP).
 
-Tahapan revolusi industri sebetulnya adalah tahapan yang rumit dengan pengaruh yang luar biasa luas pada kehidupan masyarakat.
+- **Transparansi Informasi**
+  Teknologi yang digunakan tentu memungkinkan dan mempermudah seseorang dalam mengumpulkan berbagai jenis data penting dalam proses produksi, yang terpenting adalah mengambil keputusan.
 
-Jadi, sebenarnya kita masih belum tahu sejauh mana revolusi industri 4.0 ini akan memberikan dampak bagi peradaban manusia. Bahkan, tidak menutup kemungkinan akan muncul revolusi industri 5.0 dan seterusnya.
+- **Bantuan Teknis**
+  Bantuan teknis menjadi prinsip ketiga, dengan informasi yang relevan dan penting untuk mengambil sebuah keputusan tepat dan memecahkan masalah dengan cepat. Kehadiran cyber physical system akan membantu manusia dalam menyelesaikan pekerjaan berat dan berbahaya.
 
-Setiap revolusi industri, walaupun mengguncang ekonomi, politik, bahkan budaya, serta memiliki banyak sekali sisi negatif dan masalah, selalu membawa masyarakat ke arah yang lebih baik.
+- **Pengambilan Keputusan**
+  Termasuk ke dalam revolusi industri 4.0 dalam pendidikan, bahwa cyber physical system nantinya dapat memutuskan sendiri secara otomatis dalam melakukan tugas sesuai dengan fungsi yang benar tanpa membutuhkan campur tangan dari pihak eksternal atau pihak lainnya.
+
+ 
+## Jenis Teknologi Industri 4.0
+- **Internet of Things atau loT**
+  Merupakan sistem yang menggunakan berbagai perangkat komputasi, mekanis serta mesin digital yang menjadi satu kesatuan dan terhubung. Sistem loT memiliki empat komponen, terdiri dari perangkat sensor, konektivitas, pemrosesan data hingga antarmuka pengguna.
+
+- **Big Data**
+  Merupakan istilah yang dipakai untuk menggambarkan volume data dalam jumlah yang besar, baik data terstruktur maupun yang tidak terstruktur. Big data digunakan pada banyak perusahaan atau bisnis dan membantu sebuah perusahaan menentukan arah bisnis mereka.
+
+- **Augmented Reality**
+  Adalah sebuah teknologi dimana menggabungkan antara dunia maya dimensi dengan benda tiga dimensi yang ada dalam sebuah lingkungan nyata, kemudian memproyeksikan benda maya yang ada ke dalam waktu yang nyata.
+
+- **Cyber Security**
+  Merupakan teknologi yang dibentuk untuk melindungi segala informasi yang dimiliki dari adanya cyber attack. Cyber attack merupakan segala jenis tindakan yang sengaja dilakukan guna mengganggu kerahasiaan atau confidentiality serta ketersediaan sebuah informasi.
+
+##Dampak Revolusi Industri 4.0
+- **Dampak Positif**
+  - Memudahkan akses segala informasi dengan menggunakan perangkat yang sudah terhubung dengan internet maupun teknologi lainnya.
+  - Efektivitas dalam bidang produksi mengganti tenaga manusia dengan teknologi mesin, selain mengurangi biaya produksi justru bisa meningkatkan hasil.
+  - Meningkatkan pendapatan nasional karena memproduksi barang dalam waktu yang relatif singkat, kualitas yang dimiliki pun baik.
+  - Peningkatkan peluang pekerja tenaga ahli, karena menggunakan mesin tak cukup dan tetap harus memakai tenaga ahli manusia dalam menggerakkannya.
+- **Dampak Negatif**
+  - Rentan terhadap serangan siber, karena proses produksi menggunakan mesin teknologi, ini sangat penting memiliki keamanan.
+  - Membutuhkan biaya besar dalam investasi alat serta pekerja, karena harus mengeluarkan uang cukup banyak selain mengadakan pelatihan.
+  - Urbanisasi, meningkatnya jumlah populasi masyarakat yang ada di kota besar dan berdampak untuk lingkungan karena polusi, limbah serta hal negatif lain.
+
+## Contoh Revolusi Industri 4.0
+- **E-commerce**
+  Merupakan transformasi dari industri retail yang tersentuh pengaruh teknologi, kemudian berubah menjadi sekarang. Awalnya hanya sebuah platform yang digunakan untuk transaksi jual beli antar pengguna dan tidak ada sangkut pautnya dengan pengusaha besar.
+- **Agregator Layanan**
+Mulai dari agregator properti, transportasi, layanan kesehatan hingga reksa dana, kini semuanya bisa diakses dengan mudah hanya menggunakan ponsel yang sudah terhubung dengan internet. Agregator layanan juga memberi keuntungan lain, yakni adanya transparansi data.
+- **Agency Digital Marketing**
+  Bertugas untuk mengeksekusi berbagai strategi pemasaran digital kepunyaan perusahaan berdasarkan tujuan dan objektif yang ingin dicapai. Perkembangan era revolusi industri 4.0 membuat semakin banyak agensi pemasaran digital yang bermunculan.
+
+---
 
 _sumber_:
 - [Sejarah Revolusi Industri 1.0 hingga 4.0 dan Perbedaannya](https://www.kompas.com/edu/read/2022/04/29/134500171/sejarah-revolusi-industri-1.0-hingga-4.0-dan-perbedaannya?page=all)
+- [Revolusi Industri 4.0: Pengertian, Prinsip, Dampak dan Contohnya](https://www.sampoernauniversity.ac.id/id/revolusi-industri-4-0/)
