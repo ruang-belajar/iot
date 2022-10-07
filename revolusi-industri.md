@@ -202,8 +202,31 @@ Ada 4 prinsip yang bisa diimplementasikan suatu industri untuk menghadapi revolu
 
 - **Cyber Security**
   Merupakan teknologi yang dibentuk untuk melindungi segala informasi yang dimiliki dari adanya cyber attack. Cyber attack merupakan segala jenis tindakan yang sengaja dilakukan guna mengganggu kerahasiaan atau confidentiality serta ketersediaan sebuah informasi.
+  
+- **Artificial Intelligence (AI)**
+  Perkembangan Artificial Intelligence pada era revolusi industri 4.0 adalah untuk melakukan analisa data dengan tingkat kecerdasan selayaknya manusia. Teknologi ini memiliki fungsi utama untuk mempelajari data secara detail dan menyeluruh. 
 
-##Dampak Revolusi Industri 4.0
+  Hal ini dilakukan untuk menghasilkan sebuah prediksi yang diinginkan. Semakin banyak data yang dianalisis maka semakin baik pula hasil prediksi.
+
+- **Additive Manufacturing**
+  Perkembangan printer 3D pada revolusi industri 4.0 adalah salah satu terobosan besar dalam dunia desain dan industri. Hal ini memungkinkan gambar atau aset digital yang berupa dua dimensi dicetak menjadi barang nyata dengan ukuran dan bentuk seperti desain. 
+
+- **Simulation**
+  Teknologi berikutnya pada sejarah perkembangan revolusi industri 4.0 adalah simulation. Teknologi ini mengacu pada proses pengujian operasi dari periode waktu tertentu. Simulation banyak dilakukan untuk pengujian suatu sistem, seperti pada simulasi teknologi untuk pengecekan efisiensi kerja, optimalisasi, teknik keselamatan, dan lainnya.
+
+- **System Integration**
+  Sesuai namanya, System Integration pada revolusi industri 4.0 adalah sebuah teknologi yang menerapkan integrasi sejumlah sistem, baik secara fisik maupun fungsional.  Dalam setiap satu kesatuan sistem tersebut juga akan terjadi integrasi antar komponen sehingga semua saling terhubung untuk memastikan semuanya berjalan normal.
+
+- **Cloud Computing**
+  Perkembangan teknologi terakhir pada era revolusi industri 4.0 adalah Cloud Computing. Hal ini yang memungkinkan internet menjadi sebuah pusat penyimpanan dan pengelolaan data maupun aplikasi. 
+
+  Cloud Computing memberikan manfaat yang sangat signifikan bagi pengguna internet dimana mereka dapat masuk ke server virtual dan melakukan konfigurasi di dalamnya. Terdapat tiga jenis layanan Cloud Computing, yaitu:
+
+  - SaaS (Cloud Software as a Service) memungkinkan pengguna untuk menggunakan aplikasi yang sudah disediakan oleh infrastruktur dari cloud.
+  - PaaS (Cloud Platform as a Service) memungkinkan pengguna untuk memanfaatkan platform yang sudah tersedia sehingga bisa lebih fokus pada pengembangan aplikasinya saja.
+  - IaaS (Infrastructure as a Service) memungkinkan pengguna untuk menggunakan infrastruktur yang sudah ada, mulai dari aktivitas menyimpan, berjejaring, memproses, dan memakai sumber daya.
+
+## Dampak Revolusi Industri 4.0
 - **Dampak Positif**
   - Memudahkan akses segala informasi dengan menggunakan perangkat yang sudah terhubung dengan internet maupun teknologi lainnya.
   - Efektivitas dalam bidang produksi mengganti tenaga manusia dengan teknologi mesin, selain mengurangi biaya produksi justru bisa meningkatkan hasil.
@@ -227,3 +250,4 @@ Mulai dari agregator properti, transportasi, layanan kesehatan hingga reksa dana
 _sumber_:
 - [Sejarah Revolusi Industri 1.0 hingga 4.0 dan Perbedaannya](https://www.kompas.com/edu/read/2022/04/29/134500171/sejarah-revolusi-industri-1.0-hingga-4.0-dan-perbedaannya?page=all)
 - [Revolusi Industri 4.0: Pengertian, Prinsip, Dampak dan Contohnya](https://www.sampoernauniversity.ac.id/id/revolusi-industri-4-0/)
+- [Apa itu Revolusi Industri 4.0?Jenis, Contoh, & Dampaknya](https://www.jagoanhosting.com/blog/era-revolusi-industri-4-0/)
