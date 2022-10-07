@@ -77,11 +77,11 @@ Beberapa kelemahan IoT meliputi:
 
 ## Isu Berkaitan Dengan IoT
 IoT adalah teknologi yang relatif baru dan berkembang. Berikut ini adalah beberapa aspek dimana IoT terus menghadapi beberapa masalah.
-- Standar dan Regulasi
+- Standar dan Regulasi\
   Semakin banyaknya perangkat yang terhubung membuat standarisasi dan regulasi IoT menjadi urusan yang rumit. Masalah standardisasi dan regulasi berkisar dari masalah teknis hingga masalah hukum. Sebagai contoh, perangkat pintar berbeda dapat menggunakan berbagai protokol komunikasi nirkabel berbeda pula, misalnya Bluetooth, Wi-Fi, Zigbee, dan 5G yang menghambat komunikasi dalam sistem IoT. Di sisi lain, kurangnya regulasi yang menyoroti isu terkait internet saat ini akan menambah lapisan kerumitan lain untuk isu ini. Salah satu contoh adalah menentukan akuntabilitas: Jika ada cacat dan pelanggaran terkait penggunaan perangkat IoT, kurangnya regulasi membuat akuntabilitas sulit ditentukan. Standar dan peraturan memengaruhi kualitas layanan keseluruhan yang diberikan teknologi IoT, oleh karena itu menjadi perhatian semua pemangku kepentingan IoT, baik itu pengguna individu, produsen perangkat, atau organisasi yang mengintegrasikan teknologi ke dalam proses mereka.
-- Privasi
+- Privasi\
   Kesadaran privasi telah tumbuh seiring meningkatnya keragaman informasi pribadi yang dibagikan melalui internet. Dengan adanya IoT maka akan semakin rumit masalah ini karena luasnya jenis data yang direkam dan dibagikan melalui internet. Karena IoT bekerja lebih baik dengan mendapatkan data sedetil mungkin tentang lingkungan, terjadilah trade-off (untung rugi) antara privasi pengguna dan kualitas layanan. Menentukan titik-titik dimana pengumpulan data harus dibatasi, atau bahkan menghentikan pengumpulan data sekaligus karena masalah privasi pengguna juga sulit dicapai, apalagi sebagian besar sistem IoT bersifat otomatis.
-- Keamanan (Security)
+- Keamanan (Security)\
   Masalah keamanan akan selalu muncul ketika menangani data dan informasi yang terlibat. IoT menambahkan tantangan11 keamanannya sendiri dengan aksesnya ke berbagai informasi pribadi dan integrasinya yang erat ke dalam kegiatan individu dan organisasi. Karakteristik IoT ini menjadikan teknologi yang layak bagi penjahat cyber untuk ditarget. Selain itu, setiap pelanggaran, serangan, dan kerentanan pada satu perangkat IoT atau sistem akan melemahkan keamanan seluruh jaringan yang bersangkutan.
 
 Ancaman keamanan lain yang terkait dengan teknologi IoT meliputi:
