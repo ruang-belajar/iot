@@ -177,16 +177,16 @@ Selain itu, koneksi internet berarti munculnya celah keamanan baru. Perusahaan s
 
 ## Prinsip Rancangan Revolusi Industri 4.0
 Ada 4 prinsip yang bisa diimplementasikan suatu industri untuk menghadapi revolusi industri 4.0:
-- **Interkoneksi**
+- **Interoperability** (Interkoneksi)
   Prinsip pertama dalam revolusi industri generasi keempat adalah interkoneksi, atau hubungan antar manusia, alat dan mesin dalam melakukan komunikasi satu sama lain. Dengan internet of Things (IOT) dan Internet of People (IOP).
 
-- **Transparansi Informasi**
+- **Information Transparency** (Transparansi Informasi)
   Teknologi yang digunakan tentu memungkinkan dan mempermudah seseorang dalam mengumpulkan berbagai jenis data penting dalam proses produksi, yang terpenting adalah mengambil keputusan.
 
-- **Bantuan Teknis**
+- **Technical Assistance** (Membantu manusia)
   Bantuan teknis menjadi prinsip ketiga, dengan informasi yang relevan dan penting untuk mengambil sebuah keputusan tepat dan memecahkan masalah dengan cepat. Kehadiran cyber physical system akan membantu manusia dalam menyelesaikan pekerjaan berat dan berbahaya.
 
-- **Pengambilan Keputusan**
+- **Decentralized Decisions** (Pengambilan Keputusan mandiri)
   Termasuk ke dalam revolusi industri 4.0 dalam pendidikan, bahwa cyber physical system nantinya dapat memutuskan sendiri secara otomatis dalam melakukan tugas sesuai dengan fungsi yang benar tanpa membutuhkan campur tangan dari pihak eksternal atau pihak lainnya.
 
  
