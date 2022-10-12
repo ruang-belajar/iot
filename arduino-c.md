@@ -1,5 +1,10 @@
 # Arduino C
 
+Kode yang dimasukan ke dalam Arduino ditulis dalam bahasa C. Untuk keperluan coding Arduino, kita bisa menggunakan Arduino IDE. Sofware ini bisa di download secara gratis di [www.arduino.cc](https://www.arduino.cc/en/software).
+
+Jika melakukan Anda mau melakukan simulasi prototiping sederhana, Anda bisa menggunakan layanan [tinkercad.com](https://tinkercad.com). Check [artikel pengenalan Tinkercad](tinkercad.md) untuk memulai.
+
+
 ## Fungsi Dasar
 Berikut fungsi/perintah dasar bahasa yang digunakan pada Arduino
 
