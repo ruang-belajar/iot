@@ -78,3 +78,6 @@ Fungsi ini digunakan untuk menuliskan suatu kalimat ke Serial Monitor, tetapi ti
 ### write(_VALUE_)
 Untuk mengirimkan data dari arduino ke PC, kita bisa menggunakan fungsi Serial.write(VAL). Nilai VAL adalah data yang ingin dikirimkan dari arduino ke PC, dengan ukuran 1 byte.
 Setelah mempelajari fungsi dan instruksi pada pemrograman arduino mari kita coba mengimplementasikannya. Ini adalah program dasar 'hello world' yang digunakan untuk menyalakan atau mematikan sesuatu. Dalam contoh ini, LED terhubung ke pin D1, dan berkedip setiap detik. Resistor dapat dihilangkan pada pin ini karena Arduino memilikinya.
+
+### tone(_PIN_, _frek_) & noTone()
+Perintah untuk membunyikan buzzer (piezo) sesuai nilai _frek_. Fungsi ini hanya bisa implementasikan pada pada _PIN_ 3-11. Suara buzzer akan berhenti ketika dipanggil fungsi `noTone()`.
