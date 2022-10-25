@@ -33,9 +33,34 @@ Ada 3 pembelajaran yang kita bisa lakukan di Tinkercad (3D Design, Circuits, Cod
 - **Resistor**: komponen resistor. Besarannya bisa ditentukan sesuai kebutuhan.
 - **LED**: komponen lampu LED. Warnanya bisa ditentukan sesuai kebutuhan.
 - **Pushbutton**: komponen tombol
-- **Potentiometer**: komponen potensio meter. Besarannya bisa ditentukan sesuai kebutuhan
+- **Potentiometer**: komponen potensio meter. 
 - **Capasitor**: komponen kapasitor
 - **Slideswitch**: komponen switch on/off.
 - **9V Battery**: komponen baterai 9V seperti baterai "kotak"
 - **Coin Cell 3V Battery**: komponen baterai litium/kancing 3V
 - **1.5V Battery**: komponen baterai 1.5V seperti baterai AAA
+
+### Potentionmeter
+Potensiometer bisa digunakan sebagai media input. Input dari potensiometer dibaca lewat `analogRead()`. Nilai yang dihasilkan dari potentiometer ini adalah 0-1023.
+
+Potentiometer memiliki 3 kaki:
+1. Terminal 1: untuk dihubungkan ke sumber listrik 5V
+2. Wiper: untuk dihubungkan ke GND
+3. Terminal 2: untuk dihubungkan ke input pin.
+
+Berikut contoh membaca input menggunakan potentiometer dan menampilkan output lewat _Serial Monitor_. Ketika potentiometer diputar full ke kiri, maka `analogRead()` akan memberikan nilai 0, nilai 1023 jika diputas full ke kanan.
+
+![](res/potentiometer.png)
+```cpp
+void setup()
+{
+   pinMode(0,INPUT);
+  	Serial.begin(9600);
+}
+
+void loop()
+{
+  int x = analogRead(0);  
+  Serial.println(x);
+}
+```
