@@ -40,27 +40,27 @@ Ada 3 pembelajaran yang kita bisa lakukan di Tinkercad (3D Design, Circuits, Cod
 - **Coin Cell 3V Battery**: komponen baterai litium/kancing 3V
 - **1.5V Battery**: komponen baterai 1.5V seperti baterai AAA
 
-### Potentionmeter
-Potensiometer bisa digunakan sebagai media input. Input dari potensiometer dibaca lewat `analogRead()`. Nilai yang dihasilkan dari potentiometer ini adalah 0-1023.
+## Serial Monitor
 
-Potentiometer memiliki 3 kaki:
-1. Terminal 1: untuk dihubungkan ke sumber listrik 5V
-2. Wiper: untuk dihubungkan ke GND
-3. Terminal 2: untuk dihubungkan ke input pin.
+Tinkercad memiliki simulasi juga untuk Serial Monitor. Anda bisa mengakses _Serial Monitor_ ini pada bagian bawah _Code Editor_.
 
-Berikut contoh membaca input menggunakan potentiometer dan menampilkan output lewat _Serial Monitor_. Ketika potentiometer diputar full ke kiri, maka `analogRead()` akan memberikan nilai 0, nilai 1023 jika diputas full ke kanan.
+![](res/serial-monitor.png)
 
-![](res/potentiometer.png)
+Cobalah membuat rangkaian yang isinya hanya terdiri 1 Arduino, kemudian tambahkan kode program berikut:
+
 ```cpp
+int n = 0;
 void setup()
 {
-   pinMode(0,INPUT);
-  	Serial.begin(9600);
+  pinMode(LED_BUILTIN, OUTPUT);
+  Serial.begin(9600);
 }
 
 void loop()
 {
-  int x = analogRead(0);  
-  Serial.println(x);
+  Serial.println(n);
+  delay(1000); // Wait for 1000 millisecond(s)
+  n = n + 1;
 }
 ```
+Jalankan simulasi, kemudian lihat outputnya pada _Serial Monitor_
