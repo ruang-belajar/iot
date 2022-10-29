@@ -39,3 +39,9 @@ Ada 3 pembelajaran yang kita bisa lakukan di Tinkercad (3D Design, Circuits, Cod
 - **9V Battery**: komponen baterai 9V seperti baterai "kotak"
 - **Coin Cell 3V Battery**: komponen baterai litium/kancing 3V
 - **1.5V Battery**: komponen baterai 1.5V seperti baterai AAA
+- **Breadboard**: media untuk menempelkan komponen-komponen elektronik
+- **Arduino Uno R3**: microcontroler yang bisa di program ulang.
+- **micro:bit**: microcontroler (mirip Arduino), menggunakan python sebagai bahasa pemrogramannya
+- **Vibration Motor**: motor yang memberikan aksi getar
+- **DC Motor**: motor penggerak menggunakan arus DC
+- **Micro Servo**: motor penggerak, bedanya gerakan servo bisa diatur seberapa derajat pergeserannya.
