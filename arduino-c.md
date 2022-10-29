@@ -81,3 +81,7 @@ Setelah mempelajari fungsi dan instruksi pada pemrograman arduino mari kita coba
 
 ### tone(_PIN_, _frek_) & noTone()
 Perintah untuk membunyikan buzzer (piezo) sesuai nilai _frek_. Fungsi ini hanya bisa implementasikan pada pada _PIN_ 3-11. Suara buzzer akan berhenti ketika dipanggil fungsi `noTone()`.
+
+
+### map(_variabel_,_fromLow_,_fromHigh_,_toLow_,_toHigh_)
+Fungsi map() adalah fungsi pada Arduino yang berfungsi untuk memetakan ulang suatu nilai (angka) dari rentang satu ke dalam rentang lainnya. Artinya, nilai _fromLow_ akan dipetakan ke _toLow_ , nilai _fromHigh_ ke _toHigh_ , nilai di antara akan dipetakan secara proporsional sesuai rentan.

@@ -33,7 +33,7 @@ Ada 3 pembelajaran yang kita bisa lakukan di Tinkercad (3D Design, Circuits, Cod
 - **Resistor**: komponen resistor. Besarannya bisa ditentukan sesuai kebutuhan.
 - **LED**: komponen lampu LED. Warnanya bisa ditentukan sesuai kebutuhan.
 - **Pushbutton**: komponen tombol
-- **Potentiometer**: komponen potensio meter. Besarannya bisa ditentukan sesuai kebutuhan
+- **Potentiometer**: komponen potensio meter. 
 - **Capasitor**: komponen kapasitor
 - **Slideswitch**: komponen switch on/off.
 - **9V Battery**: komponen baterai 9V seperti baterai "kotak"
