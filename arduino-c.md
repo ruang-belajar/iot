@@ -85,3 +85,47 @@ Perintah untuk membunyikan buzzer (piezo) sesuai nilai _frek_. Fungsi ini hanya 
 
 ### map(_variabel_,_fromLow_,_fromHigh_,_toLow_,_toHigh_)
 Fungsi map() adalah fungsi pada Arduino yang berfungsi untuk memetakan ulang suatu nilai (angka) dari rentang satu ke dalam rentang lainnya. Artinya, nilai _fromLow_ akan dipetakan ke _toLow_ , nilai _fromHigh_ ke _toHigh_ , nilai di antara akan dipetakan secara proporsional sesuai rentan.
+
+## Kontrol `if`
+Stetement `if` memeriksa kondisi dan mengeksekusi perintah-perintah didalamnya jika _kondisi_ bernilai _true_.
+
+```cpp
+if (kondisi) {
+    //perintah
+    //perintah
+}
+```
+
+Contoh kode program:
+```cpp
+if (x > 120) digitalWrite(LEDpin, HIGH);
+
+if (x > 120)
+    digitalWrite(LEDpin, HIGH);
+
+if (x > 120) {digitalWrite(LEDpin, HIGH);}
+
+if (x > 120) {
+    digitalWrite(LEDpin1, HIGH);
+    digitalWrite(LEDpin2, HIGH);
+}
+```
+_kondisi_ bisa berupa formula perbandingan nilai. Formula ini biasanya akan menggunakan _operator pembanding_.
+
+| Formula | Keterangan |
+| --- | --- |
+| `x == y` | (x sama dengan y) |
+| `x != y` | (x tidak sama dengan y) |
+| `x < y` | (x kurang dari y) |
+| `x > y` | (x lebih besar dari y) |
+| `x <= y` | (x lebih kecil atau sama dengan y) |
+| `x >= y` | (x lebih besar atau sama dengan y) |
+
+Beware of accidentally using the single equal sign (e.g. if (x = 10) ). The single equal sign is the assignment operator, and sets x to 10 (puts the value 10 into the variable x). Instead use the double equal sign (e.g. if (x == 10) ), which is the comparison operator, and tests whether x is equal to 10 or not. The latter statement is only true if x equals 10, but the former statement will always be true.
+
+This is because C++ evaluates the statement if (x=10) as follows: 10 is assigned to x (remember that the single equal sign is the (assignment operator)), so x now contains 10. Then the 'if' conditional evaluates 10, which always evaluates to TRUE, since any non-zero number evaluates to TRUE. Consequently, if (x = 10) will always evaluate to TRUE, which is not the desired result when using an 'if' statement. Additionally, the variable x will be set to 10, which is also not a desired action.
+
+sumber: https://www.arduino.cc/reference/en/language/structure/control-structure/if/
+
+
+## Loop
