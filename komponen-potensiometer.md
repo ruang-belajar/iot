@@ -6,8 +6,8 @@ Input dari potensiometer dibaca lewat `analogRead()`. Nilai yang dihasilkan dari
 
 Potentiometer memiliki 3 kaki:
 1. Terminal 1: untuk dihubungkan ke sumber listrik 5V
-2. Wiper: untuk dihubungkan ke GND
-3. Terminal 2: untuk dihubungkan ke input pin.
+2. Wiper: untuk dihubungkan ke input pin
+3. Terminal 2: untuk dihubungkan ke GND.
 
 Berikut contoh membaca input menggunakan potentiometer dan menampilkan output lewat _Serial Monitor_. Ketika potentiometer diputar full ke kiri, maka `analogRead()` akan memberikan nilai 0, nilai 1023 jika diputas full ke kanan.
 

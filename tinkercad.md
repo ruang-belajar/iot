@@ -39,28 +39,9 @@ Ada 3 pembelajaran yang kita bisa lakukan di Tinkercad (3D Design, Circuits, Cod
 - **9V Battery**: komponen baterai 9V seperti baterai "kotak"
 - **Coin Cell 3V Battery**: komponen baterai litium/kancing 3V
 - **1.5V Battery**: komponen baterai 1.5V seperti baterai AAA
-
-## Serial Monitor
-
-Tinkercad memiliki simulasi juga untuk Serial Monitor. Anda bisa mengakses _Serial Monitor_ ini pada bagian bawah _Code Editor_.
-
-![](res/serial-monitor.png)
-
-Cobalah membuat rangkaian yang isinya hanya terdiri 1 Arduino, kemudian tambahkan kode program berikut:
-
-```cpp
-int n = 0;
-void setup()
-{
-  pinMode(LED_BUILTIN, OUTPUT);
-  Serial.begin(9600);
-}
-
-void loop()
-{
-  Serial.println(n);
-  delay(1000); // Wait for 1000 millisecond(s)
-  n = n + 1;
-}
-```
-Jalankan simulasi, kemudian lihat outputnya pada _Serial Monitor_
+- **Breadboard**: media untuk menempelkan komponen-komponen elektronik
+- **Arduino Uno R3**: microcontroler yang bisa di program ulang.
+- **micro:bit**: microcontroler (mirip Arduino), menggunakan python sebagai bahasa pemrogramannya
+- **Vibration Motor**: motor yang memberikan aksi getar
+- **DC Motor**: motor penggerak menggunakan arus DC
+- **Micro Servo**: motor penggerak, bedanya gerakan servo bisa diatur seberapa derajat pergeserannya.
