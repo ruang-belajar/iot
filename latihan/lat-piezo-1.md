@@ -24,7 +24,7 @@ void loop() {
   	
     tone(pinPiezo,frek);
     Serial.println(frek); // membantu programer mengencek frekuensi yang sedang aktif
-  	frek = frek + x;
+    frek = frek + x;
   
     delay(100);
   
@@ -33,7 +33,7 @@ void loop() {
     // begitu juga sebaliknya
     // x positif berarti ini bagian dimana "nada naik"
     // x negatif berarti ini bagian dimana "nada turun"
-  	if(frek>500 || frek<100) {
+    if(frek>500 || frek<100) {
       x*=-1;
     } 
     
