@@ -13,6 +13,7 @@ int frek = 100;
 // penambahan frekuensi
 int x = 10;
 
+// pin output piezo
 int pinPiezo = 8;
 
 void setup() {
@@ -34,7 +35,7 @@ void loop() {
     // x positif berarti ini bagian dimana "nada naik"
     // x negatif berarti ini bagian dimana "nada turun"
     if(frek>500 || frek<100) {
-      x*=-1;
+      x*=-1; // naikan/turunkan frekuensi untuk loop berikutnya
     } 
     
          
@@ -44,7 +45,7 @@ void loop() {
 Dari contoh diatas, coba kerjakan soal-soal berikut:
 
 ## Soal 1
-Tambahkan _potentiometer_ ke dalam rangkaian. Ketika _potentimeter_ di putar, maka frekuensi yang dibunyikan berubah. Semakin diputar ke kanan, maka frekuensi akan semakin tinggi.
+Tambahkan _potentiometer_ ke dalam rangkaian. Ketika _potentiometer_ di putar, maka frekuensi yang dibunyikan berubah. Semakin diputar ke kanan, maka frekuensi akan semakin tinggi.
 
 ## Catatan
 - Suara yang bisa didengar manusia adalah 20Hz-20KHz.
