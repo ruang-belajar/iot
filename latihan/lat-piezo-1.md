@@ -45,3 +45,7 @@ Dari contoh diatas, coba kerjakan soal-soal berikut:
 
 ## Soal 1
 Tambahkan _potentiometer_ ke dalam rangkaian. Ketika _potentimeter_ di putar, maka frekuensi yang dibunyikan berubah. Semakin diputar ke kanan, maka frekuensi akan semakin tinggi.
+
+## Catatan
+- Suara yang bisa didengar manusia adalah 20Hz-20KHz.
+- Perangkat beberapa perangkat piezo memiliki jangkauan frekuensi yang berbeda
