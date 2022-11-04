@@ -44,4 +44,4 @@ void loop() {
 Dari contoh diatas, coba kerjakan soal-soal berikut:
 
 ## Soal 1
-Tambahkan _potentiometer_ ke dalam rangkaian. Ketika _potentimeter_ di putar, maka frekuensi yang dibunyikan berubah. Semakin diputar ke kiri, maka frekuensi akan semakin tinggi.
+Tambahkan _potentiometer_ ke dalam rangkaian. Ketika _potentimeter_ di putar, maka frekuensi yang dibunyikan berubah. Semakin diputar ke kanan, maka frekuensi akan semakin tinggi.
