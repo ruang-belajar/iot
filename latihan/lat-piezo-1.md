@@ -50,3 +50,4 @@ Tambahkan _potentiometer_ ke dalam rangkaian. Ketika _potentiometer_ di putar, m
 ## Catatan
 - Suara yang bisa didengar manusia adalah 20Hz-20KHz.
 - Perangkat beberapa perangkat piezo memiliki jangkauan frekuensi yang berbeda
+- Check juga referensi penggunaan [komponen potentiometer](../komponen-potensiometer.md)
