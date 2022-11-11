@@ -1,9 +1,8 @@
 # Komponen: Ultrasound (HC-SR04)
 
-Komponen Ultrasound adalah sensor untuk mendeteksi jarak benda yang ada dihadapannya. Komponen ini menggunakan suara untuk melakukan deteksi.
-![](res/how-ultrasonic-sensor-works-01.webp)
+Komponen Ultrasound adalah sensor untuk mendeteksi jarak benda yang ada dihadapannya. Komponen ini menggunakan suara untuk melakukan deteksi. Ultrasound bisa melakukan deteksi benda dengan jarak efektif 2-400cm.
 
-Ultrasound bisa melakukan deteksi benda dengan jarak efektif 2-400cm
+![](res/how-ultrasonic-sensor-works-01.webp)
 
 Rangkaian sederhana menggunaan komponen ultrasound:
 
