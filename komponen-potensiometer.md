@@ -1,4 +1,4 @@
-# Mengenal Potensiometer
+# Komponen: Potensiometer
 
 Potensiometer berfungsi seperti resistor yang bisa diatur besarannya oleh user. Fungsi ini kita bisa gunakan sebagai media input. 
 
