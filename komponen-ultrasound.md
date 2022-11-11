@@ -7,9 +7,9 @@ Komponen Ultrasound adalah sensor untuk mendeteksi jarak benda yang ada dihadapa
 Rangkaian sederhana menggunaan komponen ultrasound:
 
 ![](res/ultrasound.png)
-```cpp
 
-int cm=0;
+```cpp
+double cm;
 
 int pinTrigger = 7;
 int pinEcho = 6;
@@ -17,22 +17,21 @@ int pinEcho = 6;
 // function untuk membaca jarak
 double bacaJarak()
 {
-  // pastikan ultrasound dalam keadaan mati
-  digitalWrite(pinTrigger, LOW);
-  delayMicroseconds(2);
-  
-  // kirim sinyal suara
-  // 10 Microsecond adalah standard durasi pengiriman standard untuk melakukan pengukuran menggunakan ultrasound
-  digitalWrite(pinTrigger,HIGH);
-  delayMicroseconds(10);
-  // matikan
-  digitalWrite(pinTrigger,LOW);
-  
-  // baca pulsa suara
-  long pulse=pulseIn(pinEcho,HIGH);
-  
-  return pulse/58; // rumus konversi hasil pembacaan sensor (pulse) ke sentimeter
-  
+    // pastikan ultrasound dalam keadaan mati
+    digitalWrite(pinTrigger, LOW);
+    delayMicroseconds(2);
+    
+    // kirim sinyal suara
+    // 10 Microsecond adalah standard durasi pengiriman standard untuk melakukan pengukuran menggunakan ultrasound
+    digitalWrite(pinTrigger,HIGH);
+    delayMicroseconds(10);
+    // matikan
+    digitalWrite(pinTrigger,LOW);
+    
+    // baca pulsa suara
+    long pulse=pulseIn(pinEcho,HIGH);
+    
+    return pulse/58; // rumus konversi hasil pembacaan sensor (pulse) ke sentimeter  
 }
 
 void setup()
@@ -44,13 +43,14 @@ void setup()
 
 void loop()
 {
-   cm = bacaJarak();
+    // membaca jarak dari sensor ultrasound
+    cm = bacaJarak();
 
-   // hasil pembacaan jarak ditampilkan di Serial Monitor
-   Serial.print("Jarak = ");
-   Serial.println(cm);
-   
-  delay(100);
+    // hasil pembacaan jarak ditampilkan di Serial Monitor
+    Serial.print("Jarak = ");
+    Serial.println(cm);
+
+    delay(100);
 }
 ```
 
