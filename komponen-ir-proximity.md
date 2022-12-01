@@ -1,0 +1,30 @@
+# Infrared Proximity Sensor
+
+Infrared Proximity Sensor (IR Proximity) adalah sensor yang menggunakan _infrared_ untuk mendeteksi halangan benda di depannya.
+
+Berbeda dengan [ultrasonic sensor](komponen-ultrasound.md). _IR Proximity_ tidak bisa mendeteksi jarak, ia hanya mendeteksi ada tidaknya halangan di depannya.
+
+Contoh penggunaan:
+
+![](res/ir-proximity-1.jpg)
+
+```cpp
+int LED = 13;
+int irPin = 2;
+int adabenda;
+
+void setup() {
+  pinMode(LED, OUTPUT);
+  pinMode(irPin, INPUT);
+}
+
+void loop() {
+  adabenda = digitalRead(irPin);
+  if (adabenda == LOW)   {
+    digitalWrite(LED, HIGH);
+  } else {
+    digitalWrite(LED, LOW);
+  }
+  delay(200);
+}
+```
