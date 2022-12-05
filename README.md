@@ -6,6 +6,14 @@ Repositori ini digunakan untuk bahasa perkuliahan Web IoT di [STMIK Mardira Indo
 2.  [Pengenalan Tinkercad](tinkercad.md)
 3.  [Bahasa C untuk Arduino](arduino-c.md)
 
+Panduan menggunakan _Micro Controler_ selain Arduino
+1. [ESP32](esp32-intro.md)
+2. [NodeMCU/EXP8266](nodemcu-intro.md)
+
+Panduan menggunakan komponen
+1. [Ultrasonic](komponen-ultrasonic.md)
+2. [Infrared Proximity](komponen-ir-proximity.md)
+
 ---
 
 Repositori ini _forked_ dari [doditsuprianto/Internet-of-Things-Menggunakan-NodeMCU-ESP8266-12E-Untuk-Pemula](https://github.com/doditsuprianto/Internet-of-Things-Menggunakan-NodeMCU-ESP8266-12E-Untuk-Pemula) dengan beberapa penambahan dari saya dan beberapa kontributor lain:
