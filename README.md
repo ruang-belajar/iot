@@ -11,8 +11,10 @@ Panduan menggunakan _Micro Controler_ selain Arduino
 2. [NodeMCU/EXP8266](nodemcu-intro.md)
 
 Panduan menggunakan komponen
-1. [Ultrasonic](komponen-ultrasonic.md)
-2. [Infrared Proximity](komponen-ir-proximity.md)
+1. [Breadboard](komponen-breadboard.md)
+2. [Piezo/buzzer](komponen-piezo.md)
+3. [Ultrasonic](komponen-ultrasonic.md)
+4. [Infrared Proximity](komponen-ir-proximity.md)
 
 ---
 
