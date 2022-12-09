@@ -8,13 +8,14 @@ Repositori ini digunakan untuk bahasa perkuliahan Web IoT di [STMIK Mardira Indo
 
 Panduan menggunakan _Micro Controler_ selain Arduino
 1. [ESP32](esp32-intro.md)
-2. [NodeMCU/EXP8266](nodemcu-intro.md)
+2. [NodeMCU/EXP8266](esp8266-nodemcu-intro.md)
 
 Panduan menggunakan komponen
 1. [Breadboard](komponen-breadboard.md)
 2. [Piezo/buzzer](komponen-piezo.md)
 3. [Ultrasonic](komponen-ultrasonic.md)
 4. [Infrared Proximity](komponen-ir-proximity.md)
+5. [Servo](komponen-servo.md)
 
 ---
 
