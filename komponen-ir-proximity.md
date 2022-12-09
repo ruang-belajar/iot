@@ -4,7 +4,13 @@ Infrared Proximity Sensor (IR Proximity) adalah sensor yang menggunakan _infrare
 
 Berbeda dengan [ultrasonic sensor](komponen-ultrasound.md), _IR Proximity_ tidak bisa mendeteksi jarak, ia hanya mendeteksi ada tidaknya halangan di depannya.
 
-Contoh penggunaan:
+## Diagram
+![](res/ir-proximity-wiring-1.jpg)
+
+![](res/ir-proximity-wiring-2.jpg)
+
+
+## Contoh penggunaan
 
 ![](res/ir-proximity-1.jpg)
 
