@@ -13,8 +13,6 @@ Motor Servo adalah jenis Aktuator elektromekanis yang tidak berputar secara kont
 
 Servo myservo;  // buat objek servo
 
-int pos = 0;    // varibel untuk menyimpan posisi servo
-
 void setup() {
   // set nomor pin yang digunakan
   // - arduino: 9
@@ -24,14 +22,9 @@ void setup() {
 }
 
 void loop() {
-  for (pos = 0; pos <= 180; pos += 1) { // geser dari 1 sampai 180
-    // geser 1 derajat
-    myservo.write(pos);              // instruksikan servo untuk bergerak ke posisi 'pos'
-    delay(15);                       // tunggu 15ms untuk servo bergerak ke posisi yang ditentukan
-  }
-  for (pos = 180; pos >= 0; pos -= 1) { // geser dari 180 ke 1
-    myservo.write(pos);              // instruksikan servo untuk bergerak ke posisi 'pos'
-    delay(15);                       // tunggu 15ms untuk servo bergerak ke posisi yang ditentukan
-  }
+  myservo.write(180);   // instruksikan servo untuk bergerak ke posisi 180
+  delay(3000);          // tunggu 3 detik untuk servo bergerak ke posisi yang ditentukan
+  myservo.write(0);     // instruksikan servo untuk bergerak ke posisi 0
+  delay(3000);            // tunggu 3 detik untuk servo bergerak ke posisi yang ditentukan
 }
 ```
