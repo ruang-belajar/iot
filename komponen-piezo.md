@@ -26,3 +26,22 @@ void loop() {
     delay(1000);         
 }
 ```
+
+## FAQ
+
+### Error: _tone was not declared in this scope_
+
+Jika Anda menggunakan ESP32, untuk beberapa kondisi, Anda mungkin akan menemukan error  _tone was not declared in this scope_ ketika program di-_compile_. Untuk mengatasi itu, tambahkan kode ini pada file coding program Anda (contoh: Anda bisa menambahkan coding ini ke bagian sebelum `void setup()`).
+
+```cpp
+int playing = 0;
+void tone(byte pin, int freq) {
+  ledcSetup(0, 2000, 8); // setup beeper
+  ledcAttachPin(pin, 0); // attach beeper
+  ledcWriteTone(0, freq); // play tone
+  playing = pin; // store pin
+}
+void noTone() {
+  tone(playing, 0);
+}
+```
