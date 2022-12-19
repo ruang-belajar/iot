@@ -41,7 +41,7 @@ void loop() {
     Serial.println(adabenda);
 
     if(adabenda==LOW) {
-        jingle(pinPiezo);
+        jingle1(pinPiezo);
     }
     delay(500);
 }
