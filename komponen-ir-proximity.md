@@ -16,7 +16,7 @@ Berbeda dengan [ultrasonic sensor](komponen-ultrasound.md), _IR Proximity_ tidak
 
 ```cpp
 int LED = 13;
-int irPin = 2;
+int irPin = 2; //ESP32:5
 int adabenda;
 
 void setup() {
