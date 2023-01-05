@@ -1,15 +1,6 @@
-/******************************************
- * Developed by Jose Garcia, https://github.com/jotathebest/
- * ****************************************/
-
-/****************************************
- * Include Libraries
- ****************************************/
+// pastikan install library
 #include "UbidotsEsp32Mqtt.h"
 
-/****************************************
- * Define Constants
- ****************************************/
 const char *UBIDOTS_TOKEN = "";  // Put here your Ubidots TOKEN
 const char *WIFI_SSID = "";      // Put here your Wi-Fi SSID
 const char *WIFI_PASS = "";      // Put here your Wi-Fi password
@@ -40,10 +31,6 @@ void callback(char *topic, byte *payload, unsigned int length)
   Serial.println();
 }
 
-/****************************************
- * Main Functions
- ****************************************/
-
 void setup()
 {
   // put your setup code here, to run once:
@@ -57,22 +44,23 @@ void setup()
   timer = millis();
 }
 
-void loop()
-{
+void loop() {
   // put your main code here, to run repeatedly:
-  if (!ubidots.connected())
-  {
+  if (!ubidots.connected()) {
     ubidots.reconnect();
   }
+
   x = millis() - timer;
   if(x<0) x*=-1;
-  if (x > PUBLISH_FREQUENCY) // triggers the routine every 5 seconds
-  {
+    
+  if (x > PUBLISH_FREQUENCY) { // triggers the routine every 5 seconds
     float value = analogRead(analogPin);
     ubidots.add(VARIABLE_LABEL, value); // Insert your variable Labels and the value to be sent
     ubidots.publish(DEVICE_LABEL);
     timer = millis();
-  Serial.println(value);
+
+    Serial.println(value); // tampilkan hasil di Serial Monitor
+    
   }
   ubidots.loop();
 }
