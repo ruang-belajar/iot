@@ -15,22 +15,16 @@ void setup() {
   pinMode(pinLed1, OUTPUT);
   pinMode(pinLed2, OUTPUT);
   pinMode(pinLed3, OUTPUT);
-  Serial.begin(9600);
 }
 
 void loop() {
-  int x = analogRead();
+  int x = analogRead(0);
   Serial.println(x);
   
-  if(x>600) {
-    digitalWrite(pinLed1,LOW);
+  if(x>500) {
+    digitalWrite(pinLed1,HIGH);
     digitalWrite(pinLed2,LOW);
     digitalWrite(pinLed3,LOW);  
-  else {
-    digitalWrite(pinLed1,HIGH);
-    digitalWrite(pinLed2,HIGH);
-    digitalWrite(pinLed3,HIGH);  
-  }
 }
 ```
 
@@ -38,44 +32,43 @@ void loop() {
 
 ![](res/lat-01-02.png)
 
-Perbaiki program ini sehingga bisa _running_.
+Program dibawah ini mengadung 5 kesalahan. Perbaiki program ini sehingga bisa _running_.
 
 ```cpp
 
-int trig = 7;
-int echo = 6;
+int pinTrigger = 7;
+int pinEcho = 6;
 
 // function untuk membaca jarak
-double bacaJarak() {
-  digitalWrite(trig, LOW);
+double bacaJarak()
+{
+  digitalWrite(pinTrigger, LOW);
   delayMicroseconds(2);
   
-  digitalWrite(trig,HIGH);
+  digitalWrite(pinTrigger,HIGH);
   delayMicroseconds(10);
-  digitalWrite(trig,LOW);
+  digitalWrite(pinTrigger,LOW);
   
-  long pulse=pulseIn(echo,HIGH);
+  long pulse=pulseIn(pinEcho,HIGH);
   
   return pulse/58; // rumus konversi nilai pulse ke sentimeter
   
-
+}
 
 void setup
 {
-  pinMode(trig,OUTPUT);
-  pinMode(echo,INPUT);
+  pinMode(pinTrigger,OUTPUT);
+  pinMode(pinEcho,INPUT);
   Serial.begin(9600);
 }
 
 void loop()
 {
-   cm = bacaJarak();
-   inch = cm x 0,393701
-   Serial.print("Jarak CM  = );
-   Serial.println(inch);
-   Serial.print("Jarak INCH = );
-   Serial.println(inch)
+   cm = bacaJarak;
+   Serial.print("Jarak = );
+   Serial.println(cm)
 
+   delay(100);
 }
 
 
@@ -84,9 +77,9 @@ void loop()
 ## Soal 3
 
 Lengkapi program pada **Soal 2** sehingga menjalan program sebagai berikut:
-1. Jika jarak 0-30cm, bunyikan suara 2000Hz
-2. Jika jarak 30-100cm, bunyikan suara 1000Hz
-3. Jika jarak >100cm, tidak ada suara dan tampilkan tulisan di _Serial Monitor_: "tidak ada benda"
+1. Jika jarak 0-30cm, tampilkan tulisan ke _Serial Monitor_: "terlalu dekat"
+2. Jika jarak 30-100cm, tampilkan tulisan ke _Serial Monitor_: "dekat"
+3. Jika jarak >100cm, tampilkan tulisan ke _Serial Monitor_: "jauh"
 
 ## Soal 4
 Pelajari rangkaian dan program dibawah ini, kemudian ceritakan cara kerjanya:
@@ -109,20 +102,17 @@ void setup () {
 void loop() {
     int adabenda = digitalRead(pinIr);
 
-    if (adabenda == HIGH){
+    if (adabenda == LOW){
         x = 1;
-        digitalWrite(led, LOW);
+        digitalWrite(led, HIGH);
     } 
 
-    if ((adabenda==LOW)&&(x==1)) {
+    if ((adabenda==HIGH)&&(x==1)) {
         x = 0;
-        digitalWrite(led, HIGH);
+        digitalWrite(led, LOW);
         count = count + 1;
         Serial.println(count);
     }
     
 }
 ```
-
-## Soal 5
-Terapkan metode "counter" seperti pada _Soal 4_ pada rangkaian pada _Soal 2_
