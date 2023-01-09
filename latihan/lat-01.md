@@ -125,4 +125,4 @@ void loop() {
 ```
 
 ## Soal 5
-Terapkan metode "counter" seperti pada _Soal 4_ pada rangkaian pada _Soal 2_
+Terapkan metode "counter" seperti pada _Soal 4_ pada rangkaian pada _Soal 2_.
