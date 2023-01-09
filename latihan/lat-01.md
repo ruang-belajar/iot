@@ -3,33 +3,31 @@
 ## Soal 1
 ![](res/lat-01-01.png)
 
-Program dibawah ini mengadung 5 kesalahan. Perbaiki program ini sehingga bisa _running_.
+Perbaiki program ini sehingga bisa _running_.
 
 ```cpp
-int pinLed1 = 13;
-int pinLed2 = 12;
-int pinLed3 = 11
+int led1 = 13;
+int led2 = 12;
+int led3 = 11
 
 void setup() {
-  pinMOde(pinInput, INPUT);
-  pinMode(pinLed1, OUTPUT);
-  pinMode(pinLed2, OUTPUT);
-  pinMode(pinLed3, OUTPUT);
-  Serial.begin(9600);
+  pinMOde(input, INPUT);
+  pinMode(led1, OUTPUT);
+  pinMode(led2, OUTPUT);
+  pinMode(led3, OUTPUT);
 }
 
 void loop() {
   int x = analogRead();
-  Serial.println(x);
   
-  if(x>600) {
-    digitalWrite(pinLed1,LOW);
-    digitalWrite(pinLed2,LOW);
-    digitalWrite(pinLed3,LOW);  
+  if(x>600) 
+    digitalWrite(led1,LOW);
+    digitalWrite(led2,LOW);
+    digitalWrite(led3,LOW);  
   else {
-    digitalWrite(pinLed1,HIGH);
-    digitalWrite(pinLed2,HIGH);
-    digitalWrite(pinLed3,HIGH);  
+    digitalWrite(led1,HIGH);
+    digitalWrite(led2,HIGH);
+    digitalWrite(led3,HIGH);  
   }
 }
 ```
@@ -46,7 +44,7 @@ int trig = 7;
 int echo = 6;
 
 // function untuk membaca jarak
-double bacaJarak() {
+double jarakCm() {
   digitalWrite(trig, LOW);
   delayMicroseconds(2);
   
@@ -69,7 +67,7 @@ void setup
 
 void loop()
 {
-   cm = bacaJarak();
+   cm = jarakC();
    inch = cm x 0,393701
    Serial.print("Jarak CM  = );
    Serial.println(inch);
