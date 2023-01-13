@@ -1,4 +1,4 @@
-# Latihan 01
+# Latihan 02
 
 ## Soal 1
 ![](res/lat-01-01.png)
