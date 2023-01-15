@@ -1,4 +1,4 @@
-# Latihan 03
+# Latihan 04
 
 ![](res/lat-03-01.png)
 
@@ -23,16 +23,16 @@ double ________() {  // C
 
 void setup() 
 {
-  pinMode(pinTrigger,OUTPUT);
-  pinMode(pinEcho,INPUT);
+  pinMode(pinTrigger,_______ );  //D
+  pinMode(pinEcho,_______); // E
   Serial.begin(9600);
 }
 
 void loop()
 {
-    cm = readCm(); // D
+    cm = readCm(); 
 
-    if( ______ ) { // E
+    if( ______ ) { // F
         Serial.println("dekat");
     }
 
