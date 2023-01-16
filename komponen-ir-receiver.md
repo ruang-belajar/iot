@@ -1,6 +1,6 @@
 # Infrared Receiver
 
-_Infrared Receiver_ adalah komponen yang digunakan untuk menangkap sinyal dari _infrared receiver_.
+_Infrared Receiver_ adalah komponen yang digunakan untuk menangkap sinyal dari _infrared transmiter_.
 
 ![](res/ir-receiver-pin.png)
 
