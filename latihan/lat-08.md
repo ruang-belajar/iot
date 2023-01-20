@@ -4,8 +4,8 @@
 
 ```cpp
 
-int ________ = 8;  // A
-int ________ = 9;  // B
+int ________ = 9;  // A
+int ________ = 8;  // B
 double cm;
 
 double ________() {  // C
@@ -31,7 +31,7 @@ void setup()
 
 void loop()
 {
-    cm = readCm(); 
+    cm = readCM(); 
 
     if( ______ ) { // F
         Serial.println("dekat");
