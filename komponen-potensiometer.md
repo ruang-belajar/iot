@@ -1,8 +1,8 @@
-# Komponen: Potensiometer
+# Komponen: Potentiometer
 
-Potensiometer berfungsi seperti resistor yang bisa diatur besarannya oleh user. Fungsi ini kita bisa gunakan sebagai media input. 
+Potentiometer berfungsi seperti resistor yang bisa diatur besarannya oleh user. Fungsi ini kita bisa gunakan sebagai media input. 
 
-Input dari potensiometer dibaca lewat `analogRead()`. Nilai yang dihasilkan dari potentiometer ini adalah 0-1023.
+Input dari potentiometer dibaca lewat `analogRead()`. Nilai yang dihasilkan dari potentiometer ini adalah 0-1023.
 
 Potentiometer memiliki 3 kaki:
 1. Terminal 1: untuk dihubungkan ke sumber listrik 5V

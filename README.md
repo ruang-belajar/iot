@@ -16,8 +16,8 @@ Panduan menggunakan komponen
 3. [Ultrasonic](komponen-ultrasonic.md)
 4. [Infrared Proximity](komponen-ir-proximity.md)
 5. [Servo](komponen-servo.md)
+6. [Potentiometer](komponen-potensiometer.md)
 
 ---
 
-Repositori ini _forked_ dari [doditsuprianto/Internet-of-Things-Menggunakan-NodeMCU-ESP8266-12E-Untuk-Pemula](https://github.com/doditsuprianto/Internet-of-Things-Menggunakan-NodeMCU-ESP8266-12E-Untuk-Pemula) dengan beberapa penambahan dari saya dan beberapa kontributor lain:
-1. [Muhammad Diwan](https://github.com/MuhammadDiwan)
+Repositori ini _cloned_ dari [doditsuprianto/Internet-of-Things-Menggunakan-NodeMCU-ESP8266-12E-Untuk-Pemula](https://github.com/doditsuprianto/Internet-of-Things-Menggunakan-NodeMCU-ESP8266-12E-Untuk-Pemula) 
