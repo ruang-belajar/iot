@@ -1,3 +1,10 @@
-theme: jekyll-theme-minimal
-title: Ruang Belajar IoT
-description: Repositori kuliah IoT @ STMIK Mardira Indonesia
+title: Ruang Belajar - IoT
+description: Repositori pembelajaran mata kuliah pemrograman IoT
+domain: pujangga123.github.io
+url: http://pujangga123.github.io/ruang-belajar-iot
+github_username:  pujangga123
+
+remote_theme: pages-themes/minimal
+plugins:
+- jekyll-remote-theme
+- jekyll-feed
