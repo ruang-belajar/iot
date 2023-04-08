@@ -1,6 +1,6 @@
 # Materi Perkuliahan IoT
 
-Repositori ini digunakan untuk bahasa perkuliahan Web IoT di [STMIK Mardira Indonesia](https://stmik-mi.ac.id/).
+Repositori ini digunakan untuk bahasa perkuliahan Web IoT di [STMIK Mardira Indonesia](http://stmik-mi.ac.id/).
 
 1.  [Revolusi Industri](revolusi-industri.md) dan [Pengantar IoT](pengantar-iot.md)
 2.  [Pengenalan Tinkercad](tinkercad.md)
@@ -12,11 +12,15 @@ Panduan menggunakan _Micro Controler_ selain Arduino
 
 Panduan menggunakan komponen
 1. [Breadboard](komponen-breadboard.md)
+6. [Potentiometer](komponen-potensiometer.md)
 2. [Piezo/buzzer](komponen-piezo.md)
 3. [Ultrasonic](komponen-ultrasonic.md)
 4. [Infrared Proximity](komponen-ir-proximity.md)
-5. [Servo](komponen-servo.md)
-6. [Potentiometer](komponen-potensiometer.md)
+5. [Infrared Receiver](komponen-ir-receiver.md)
+6. [Servo](komponen-servo.md)
+
+Latihan:
+1. [Folder Latihan @ Ruang Belajar IoT](https://github.com/pujangga123/ruang-belajar-iot/tree/main/latihan)
 
 ---
 
