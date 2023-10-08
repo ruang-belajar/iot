@@ -33,3 +33,6 @@ void loop()
 ```
 
 Ketika dijalankan, coba putar _knob_ potentiometer, kemudian lihat outputnya pada _Serial Monitor_
+
+## Latihan
+- [ESP32 - Potentiometer](https://esp32io.com/tutorials/esp32-potentiometer)

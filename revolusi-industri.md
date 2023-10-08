@@ -21,11 +21,9 @@ Bayangkan, tenaga otot amat terbatas. Butuh istirahat secara berkala untuk memul
 
 Selain dengan otot, tenaga lain yang sering digunakan adalah tenaga air dan tenaga angin. Biasanya ini digunakan di penggilingan.
 
-Baca juga: Lulusan Cepat Dapat Kerja, 8 Kampus Terbaik Indonesia Versi QS 2022
-
 Untuk memutar penggilingan yang begitu berat, sering kali manusia menggunakan kincir air atau kincir angin. Masalahnya, manusia tak bisa menggunakannya di mana saja. Keduanya hanya bisa digunakan di dekat air terjun dan di daerah yang berangin. Tak hanya itu saja, tenaga angin juga tak bisa diandalkan 24 jam sehari. Ada kalanya benar-benar tak ada angin yang bisa digunakan untuk memutar kincir.
 
-Hal ini kian diperparah ketika tenaga angin menjadi andalan transportasi internasional, yaitu transportasi laut.Misalnya saja di era VOC, untuk berlayar bolak-balik Batavia-Amsterdam-Batavia, dibutuhkan waktu setahun. Alasannya, terkadang ada kalanya benar-benar tak ada angin di laut, terkadang ada angin tetapi berlawanan dengan arah yang diinginkan.
+Hal ini kian diperparah ketika tenaga angin menjadi andalan transportasi internasional, yaitu transportasi laut. Misalnya saja di era VOC, untuk berlayar bolak-balik Batavia-Amsterdam-Batavia, dibutuhkan waktu setahun. Alasannya, terkadang ada kalanya benar-benar tak ada angin di laut, terkadang ada angin tetapi berlawanan dengan arah yang diinginkan.
 
 Oleh karena itu, penemuan mesin uap mengubah segalanya. Terlebih lagi ketika James Watt di tahun 1776 menemukan mesin uap yang jauh lebih efisien dan murah dibandingkan mesin uap sebelumnya.
 
@@ -56,6 +54,11 @@ Di balik besarnya sisi positif, revolusi industri 1.0 juga memberikan dampak neg
 Perkembangan revolusi industri 1.0 tidak berhenti sampai di situ saja, prosesnya terus berkembang hingga pada tahap revolusi industri 2.0. Lalu apa perbedaan di antara keduanya?
 
 # Revolusi Industri 2.0
+Revolusi Industri Kedua, juga dikenal sebagai Revolusi Teknologi adalah sebuah fase pesatnya industrialisasi di akhir abad ke-19 dan awal abad ke-20. Revolusi Industri Pertama yang berakhir pertengahan tahun 1800-an, diselingi oleh perlambatan dalam penemuan makro sebelum Revolusi Industri Kedua muncul tahun 1870. Meskipun sejumlah karakteristik kejadiannya dapat ditelusuri melalui inovasi sebelumnya di bidang manufaktur, seperti pembuatan alat mesin industri; pengembangan metode untuk pembuatan bagian suku cadang; dan penemuan Proses Bessemer untuk menghasilkan baja, Revolusi Industri Kedua umumnya dimulai tahun 1870 hingga 1914, awal Perang Dunia I.
+
+Kemajuan pada bidang manufaktur dan teknologi produksi memungkinkan pengadopsian secara luas dari teknologi yang sudah ada sebelumnya seperti sistem  telegraf dan jaringan kereta api, gas dan air bersih, dan sistem pembuangan limbah, yang sebelumnya hanya terkonsentrasi di beberapa kota saja. Ekspansi kereta api dan jalur telegraf besar-besaran setelah tahun 1870 memungkinkan pergerakan orang dan ide yang belum pernah terjadi sebelumnya, memunculkan gelombang baru globalisasi. Dalam periode waktu yang sama, sistem teknologi baru diperkenalkan, yang paling signifikan adalah listrik dan telepon. Revolusi Industri Kedua berlanjut ke abad ke-20 dengan elektrifikasi awal pabrik-pabrik dan lini produksi, dan berakhir pada awal Perang Dunia I. 
+
+## Case: Produksi Mobil Ford.
 Produksi memang sudah menggunakan mesin, tenaga otot sudah digantikan oleh mesin uap, dan kini tenaga uap mulai digantikan dengan tenaga listrik. Namun ada satu hal yang belum berubah, proses produksi di pabrik masih jauh dari proses produksi di pabrik modern dalam hal transportasi.
 
 Di akhir 1800-an, mobil mulai diproduksi secara massal. Namun, di pabrik mobil, setiap mobil dirakit dari awal hingga akhir di titik yang sama. Semua komponen mobil harus dibawa ke si tukang-perakit. Seorang tukang-perakit memproses barang tersebut dari nol hingga produk jadi. Dari awal hingga selesai, dari merakit ban, pintu, setir, lampu, semua hanya dilakukan oleh satu orang.
@@ -103,7 +106,7 @@ Ribuan tank, pesawat, dan senjata-senjata tercipta dari pabrik-pabrik yang mengg
 # Revolusi Industri 3.0
 Setelah mengganti tenaga otot dengan uap, lalu produksi paralel dengan serial, lantas perubahan apa lagi yang bisa terjadi di dunia industri? Jawabannya ialah manusia.
 
-Revolusi industri 3.0 ditandai dengan adanya mesin yang bergerak dan berpikir secara otomatis, yaitu komputer dan robot. Hal inilah yang membuat revolusi 3.0 memiliki nama lain, yaitu Revolusi Digital.
+Revolusi industri 3.0 ditandai dengan adanya mesin yang bergerak dan berpikir secara otomatis, yaitu komputer dan robot. Hal inilah yang membuat revolusi 3.0 memiliki nama lain, yaitu _Revolusi Digital_.
 
 Pada bagian ini, peristiwa revolusi industri disebut perubahan karena lahirnya teknologi komputer menandakan cikal-bakal kemudahan kerja untuk manusia.
 
@@ -251,3 +254,4 @@ _sumber_:
 - [Sejarah Revolusi Industri 1.0 hingga 4.0 dan Perbedaannya](https://www.kompas.com/edu/read/2022/04/29/134500171/sejarah-revolusi-industri-1.0-hingga-4.0-dan-perbedaannya?page=all)
 - [Revolusi Industri 4.0: Pengertian, Prinsip, Dampak dan Contohnya](https://www.sampoernauniversity.ac.id/id/revolusi-industri-4-0/)
 - [Apa itu Revolusi Industri 4.0?Jenis, Contoh, & Dampaknya](https://www.jagoanhosting.com/blog/era-revolusi-industri-4-0/)
+- [Ensiklopedia Dunia - Revolusin Industri Kedua](https://p2k.stekom.ac.id/ensiklopedia/Revolusi_Industri_Kedua)
