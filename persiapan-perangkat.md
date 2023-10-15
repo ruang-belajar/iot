@@ -1,7 +1,10 @@
 # Persiapan Perangkat
 
 1. Micro Controller: _ESP32_
-2. Breaboard
-3. Resistor
-4. LED (Merah 1, Kuning 1, Hijau 1, Putih 1)
-5. Potensio Meter
+2. Breaboard mini
+3. Resistor 220 ohm x 10
+4. LED Merah
+5. LED Kuning
+6. LED Hijau
+7. LED Putih
+8. Potensio Meter
