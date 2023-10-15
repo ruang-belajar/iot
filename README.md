@@ -9,6 +9,7 @@ Repositori ini digunakan untuk bahasa perkuliahan Web IoT di [STMIK Mardira Indo
 **Panduan menggunakan _Micro Controler_ selain Arduino**
 1. [ESP32](esp32-intro.md)
 2. [NodeMCU/EXP8266](esp8266-nodemcu-intro.md)
+3. [Arduino](arduino-intro.md)
 
 **Setup IDE**
 - [Cara Installl PlatformIO dan Mulai Menggunakan ESP32 (YouTube)](https://www.youtube.com/watch?v=jAl6a5tNwoI)
