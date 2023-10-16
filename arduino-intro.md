@@ -1,6 +1,6 @@
 # Arduino
 
-![](res/ar)
+![](res/arduino-diagram.webp)
 
 **Vin:** This is the input voltage pin of the Arduino board used to provide input supply from an external power source.
 
@@ -39,5 +39,5 @@ Pin number 21 signifies Serial Clock Line (SCL) and it is used for offering data
 
 **AREF Pin:** This is an analog reference pin of the Arduino board. It is used to provide a reference voltage from an external power supply.
 
-****Rerefensi:****
-**- [Arduino Pin Configuration](https:**//robu.in/arduino-pin-configuration/)
+**Rerefensi:**
+- [Arduino Pin Configuration](https:**//robu.in/arduino-pin-configuration/)
