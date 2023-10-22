@@ -5,6 +5,7 @@ Repositori ini digunakan untuk bahasa perkuliahan Web IoT di [STMIK Mardira Indo
 1.  [Revolusi Industri](revolusi-industri.md) dan [Pengantar IoT](pengantar-iot.md)
 2.  [Pengenalan Tinkercad](tinkercad.md)
 3.  [Bahasa C untuk Arduino](arduino-c.md)
+4.  [Perangkat yang perlu dipersiapkan](persiapan-perangkat.md)
 
 **_Micro Controler_**
 1. [ESP32](esp32-intro.md)
@@ -25,8 +26,7 @@ Repositori ini digunakan untuk bahasa perkuliahan Web IoT di [STMIK Mardira Indo
 7. [Servo](komponen-servo.md)
 
 **Latihan:**
-1. [Folder Latihan @ Ruang Belajar IoT](https://github.com/pujangga123/ruang-belajar-iot/tree/main/latihan)
-2. [Perangkat yang perlu dipersiapkan](persiapan-perangkat.md)
+1. [Folder Latihan @ Ruang Belajar IoT](https://github.com/ruang-belajar/iot/tree/main/latihan)
 
 
 ---
