@@ -6,6 +6,7 @@ Repositori ini digunakan untuk bahasa perkuliahan Web IoT di [STMIK Mardira Indo
 2.  [Pengenalan Tinkercad](tinkercad.md)
 3.  [Bahasa C untuk Arduino](arduino-c.md)
 4.  [Perangkat yang perlu dipersiapkan](persiapan-perangkat.md)
+5.  [📝 Catatan Pertemuan](catatan-pertemuan.md)
 
 **_Micro Controler_**
 1. [ESP32](esp32-intro.md)
