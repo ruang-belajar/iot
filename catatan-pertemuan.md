@@ -15,4 +15,4 @@
 - Potentiometer
 - Serial
 - Latihan: Membuat rangkaian potentiometer dan menampilkan nilai lewat Serial
-- Tugas: Membuat [rangkaian potentiometer + piezo](latihan/lat-piezo-1.md).
+- Tugas: Membuat [rangkaian potentiometer + piezo](latihan/tugas-piezo-1.md).
