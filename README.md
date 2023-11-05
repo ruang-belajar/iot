@@ -9,8 +9,8 @@ Repositori ini digunakan untuk bahasa perkuliahan Web IoT di [STMIK Mardira Indo
 5.  [📝 Catatan Pertemuan](catatan-pertemuan.md)
 
 **_Micro Controler_**
-1. [ESP32](esp32-intro.md)
-2. [NodeMCU/EXP8266](esp8266-nodemcu-intro.md)
+1. [NodeMCU ESP8266 v3](esp8266-nodemcu-intro.md)
+2. [ESP32](esp32-intro.md)
 3. [Arduino](arduino-intro.md)
 
 **Setup IDE**
