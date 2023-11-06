@@ -7,7 +7,6 @@ Jika Anda menggunakan perangkat NodeMCU, pastikan Anda mengenali perbedaan PIN d
 Anda juga perlu [install driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads) agar PC Anda bisa mengenali perangkat.
 
 **Referensi:**
-- [Contoh Produk: NodeMCU AMICA LUA WIFI V3 4MB 32MBITS FLASH ESP8266 ESP12 CP2102](https://www.tokopedia.com/cncstorebandung/nodemcu-amica-lua-wifi-v3-4mb-32mbits-flash-esp8266-esp12-cp2102)
 - [NodeMCU v1.0 Driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)
 - [NodeMCU DEVKIT V1.0 @ Github](https://github.com/nodemcu/nodemcu-devkit-v1.0)
 - [NodeMCU Variants](https://medium.com/wemaker/nodemcu-variant-62117b608eef)

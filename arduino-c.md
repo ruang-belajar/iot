@@ -2,7 +2,28 @@
 
 Kode yang dimasukan ke dalam Arduino ditulis dalam bahasa C. Untuk keperluan coding Arduino, kita bisa menggunakan Arduino IDE. Sofware ini bisa di download secara gratis di [www.arduino.cc](https://www.arduino.cc/en/software).
 
-Jika melakukan Anda mau melakukan simulasi prototiping sederhana, Anda bisa menggunakan layanan [tinkercad.com](https://tinkercad.com). Check [artikel pengenalan Tinkercad](tinkercad.md) untuk memulai.
+## Strutur Program
+
+```
+// deklarasi header yang akan digunakan
+#include<Arduino.h>
+
+// deklarasi fungsi, variabel dan objek global
+
+// tahap persiapan
+// void setup hanya akan di eksekusi 1x, pada saat perangkat dinyalakan
+void setup() {
+
+}
+
+// program utama/loop
+// bagian program yang terus akan dieksekusi sebagai sebuah loop selama
+// perangkat menyala.
+void loop() {
+
+}
+
+```
 
 
 ## Fungsi Dasar
