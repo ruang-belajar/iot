@@ -14,7 +14,7 @@
 12. Infrared Proximity Module [[contoh](https://www.tokopedia.com/easyware-id/ir-infrared-obstacle-avoidance-sensor-module-ir-proximity-sensor)] (< Rp. 10.000)
 13. Ultrasonic sensor (< Rp. 20.000)
 14. Relay modul 12v, 1 channel (< Rp. 15.000)
-15. Active buzzer [[contoh](https://www.tokopedia.com/cncstorebandung/cnc-buzzer-speaker-active-5v-for-arduino-uno-mega-mini-nano)](< Rp. 2.000)
+15. Active buzzer [contoh](https://www.tokopedia.com/cncstorebandung/cnc-buzzer-speaker-active-5v-for-arduino-uno-mega-mini-nano)(< Rp. 2.000)
 16. Push Button (< Rp. 1.000)
 17. Kabel micro USB
 
