@@ -1,6 +1,6 @@
 # Persiapan Perangkat
 
-1. Micro Controller: _NodeMCU ESP8266 12E_ [Contoh Produk](https://www.tokopedia.com/cncstorebandung/nodemcu-amica-lua-wifi-v3-4mb-32mbits-flash-esp8266-esp12-cp2102) (< Rp. 50.000) 
+1. Micro Controller: _NodeMCU ESP8266 12E_ [Contoh Produk](https://www.tokopedia.com/cncstorebandung/nodemcu-lolin-lua-wifi-v3-4mb-32mbits-ch340-flash-esp8266-esp12-board) (< Rp. 50.000) 
 2. Breaboard 400 pin (< Rp. 20.000)
 3. Kabel jumper male-female (< Rp 10.000 / 20)
 4. Kabel jumper male-male (< Rp 10.000 / 20)

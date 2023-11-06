@@ -8,20 +8,23 @@ Kode yang dimasukan ke dalam Arduino ditulis dalam bahasa C. Untuk keperluan cod
 // deklarasi header yang akan digunakan
 #include<Arduino.h>
 
-// deklarasi fungsi, variabel dan objek global
+// deklarasi variabel dan objek global
+
+
+// deklarasi fungsi
 
 
 // tahap persiapan
 // void setup hanya akan di eksekusi 1x, pada saat perangkat dinyalakan
 void setup() {
-
+    // kode program, setup
 }
 
 // program utama/loop
 // bagian program yang terus akan dieksekusi sebagai sebuah loop selama
 // perangkat menyala.
 void loop() {
-
+    // kode program, loop
 }
 
 ```
