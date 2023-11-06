@@ -2,13 +2,14 @@
 
 Kode yang dimasukan ke dalam Arduino ditulis dalam bahasa C. Untuk keperluan coding Arduino, kita bisa menggunakan Arduino IDE. Sofware ini bisa di download secara gratis di [www.arduino.cc](https://www.arduino.cc/en/software).
 
-## Strutur Program
+## Struktur Program
 
 ```
 // deklarasi header yang akan digunakan
 #include<Arduino.h>
 
 // deklarasi fungsi, variabel dan objek global
+
 
 // tahap persiapan
 // void setup hanya akan di eksekusi 1x, pada saat perangkat dinyalakan
