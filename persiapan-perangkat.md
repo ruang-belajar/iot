@@ -10,7 +10,7 @@
 8. LED Merah (< Rp. 500)
 9. LED Kuning (< Rp. 500)
 10. LED Hijau (< Rp. 500)
-11. PIR Sensor [[contoh](https://www.tokopedia.com/cncstorebandung/cnc-hc-sr501-sr501-pir-motion-sensor-pyroelectric-infra-red-sensor)] (< Rp. 10.000)
+11. PIR Sensor [contoh](https://www.tokopedia.com/cncstorebandung/cnc-hc-sr501-sr501-pir-motion-sensor-pyroelectric-infra-red-sensor) (< Rp. 10.000)
 12. Infrared Proximity Module [[contoh](https://www.tokopedia.com/easyware-id/ir-infrared-obstacle-avoidance-sensor-module-ir-proximity-sensor)] (< Rp. 10.000)
 13. Ultrasonic sensor (< Rp. 20.000)
 14. Relay modul 12v, 1 channel (< Rp. 15.000)
