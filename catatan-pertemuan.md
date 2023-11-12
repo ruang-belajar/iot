@@ -24,3 +24,8 @@
   - Membuat fungsi jingle
   - Membuat rangkaian menggunakan sensor ultrasonic, menampilkannya lewat Serial.
 - Tugas: Membuat fungsi membunyikan beep yang berbeda sesuai jarak yang dibaca oleh sensor ultrasonic.
+
+## Pertemuan 4
+- Setup Visual Studio Code
+- Setup PlatformIO
+- Setup driver ModeMCU untuk Windows
