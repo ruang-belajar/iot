@@ -29,7 +29,6 @@ void loop() {
 
 ```
 
-
 ## Fungsi Dasar
 Berikut fungsi/perintah dasar bahasa yang digunakan pada Arduino
 
@@ -54,22 +53,14 @@ void loop() {
 ```
 
 ### digitalRead(_PIN_)
-Fungsi ini digunakan untuk membaca nilai input/masukan yang diberikan ke Arduino. Nilai yang terbaca oleh Arduino melalui digitalRead() bergantung pada voltase pada pin yang diatur. Kebergantungan pada nilai voltase ini disebut Logic Level. Pada Arduino, batasan nilai yang mencukupi untuk mencapai HIGH adalah di antara 5-3 volt, sedangkan batasan nilai yang mencapainilai LOW adalah di antara 0 1,5 volt.
+Fungsi ini digunakan untuk membaca nilai input/masukan yang diberikan ke Arduino. Nilai yang terbaca oleh Arduino melalui `digitalRead()` bergantung pada voltase pada pin yang diatur. Kebergantungan pada nilai voltase ini disebut Logic Level. Pada Arduino, batasan nilai yang mencukupi untuk mencapai HIGH adalah di antara 5-3 volt, sedangkan batasan nilai yang mencapainilai LOW adalah di antara 0 1,5 volt.
 
 Contoh:
 ```cpp
+int nilai;
 void loop(){
-    digitalRead(13) // artinya Arduino akan membaca input yang
-}
-```
-
-### analogWrite(_PIN_, _VALUE_)
-Fungsi `analogWrite()` adalah fungsi yang digunakan untuk menuliskan suatu nilai berupa angka pada sebuah komponen, misalnya LED. Pengguna dapat mengatur seberapa terang cahaya dari lampu LED saat menyala, tergantung pada nilai yang dituliskan. Fungsi ini akan berguna ketika kita mulai bermain dengan sensor, di mana nilai yang terbaca seringkali berupa analog (memiliki banyak nilai, misal 0-1023), bukan digital (hanya memiliki 2 nilai, 0 (LOW) dan 1(HIGH)).
-
-Contoh:
-```cpp
-void loop() {
-    analogWrite(5,100)
+    nilai = digitalRead(13);
+    Serial.println(nilai);
 }
 ```
 
@@ -78,13 +69,15 @@ Fungsi ini mirip dengan fungsi digitalRead(), yaitu membaca nilai masukan pada s
 
 Contoh:
 ```cpp
+int nilai;
 void loop(){
-    digitalRead(0) // Arduino akan membaca nilai
+    nilai = digitalRead(0);
+    Serial.println(nilai);
 }
 ```
 
 ### delay(_TIME_)
-Fungsi ini digunakan untuk memberikan jeda antar fungsi. Nilai time adalah waktu lamanya jeda dalamsatuan ms (milisekon), di mana 1 detik setara dengan 1.000
+Fungsi ini digunakan untuk memberikan jeda antar fungsi. Nilai time adalah waktu lamanya jeda dalam satuan _ms_ (milisekon), di mana 1 detik setara dengan 1.000
 milidetik.
 
 ### begin(baudrate)
@@ -98,7 +91,7 @@ ada masukan, dan 0 apabila tidak ada masukan.
 Fungsi ini berfungsi untuk membaca karakter pada serial port. Karakter yang dibaca akan disimpandalam bentuk ASCII (misalnya karakter ‘0’ memiliki representasi ASCII yaitu 48).
 
 ### print() dan Serial.println()
-Fungsi ini digunakan untuk menuliskan suatu kalimat ke Serial Monitor, tetapi tidak mengirimkan dataapapun, alias hanya digunakan untuk memberikan teks visual pada pengguna. Serial.print("text") digunakan untuk menulis "text", sedangkan Serial.println("text") dipakai untuk menuliskan kata "text" dan diakhiri dengan enter (kalimat selanjutnya ada di baris berikutnya).
+Fungsi ini digunakan untuk menuliskan suatu kalimat ke Serial Monitor, tetapi tidak mengirimkan dataapapun, alias hanya digunakan untuk memberikan teks visual pada pengguna. `Serial.print("text")` digunakan untuk menulis "text", sedangkan `Serial.println("text")` dipakai untuk menuliskan kata "text" dan diakhiri dengan enter (kalimat selanjutnya ada di baris berikutnya).
 
 ### write(_VALUE_)
 Untuk mengirimkan data dari arduino ke PC, kita bisa menggunakan fungsi Serial.write(VAL). Nilai VAL adalah data yang ingin dikirimkan dari arduino ke PC, dengan ukuran 1 byte.
@@ -111,7 +104,7 @@ Perintah untuk membunyikan buzzer (piezo) sesuai nilai _frek_. Fungsi ini hanya 
 ### map(_variabel_,_fromLow_,_fromHigh_,_toLow_,_toHigh_)
 Fungsi map() adalah fungsi pada Arduino yang berfungsi untuk memetakan ulang suatu nilai (angka) dari rentang satu ke dalam rentang lainnya. Artinya, nilai _fromLow_ akan dipetakan ke _toLow_ , nilai _fromHigh_ ke _toHigh_ , nilai di antara akan dipetakan secara proporsional sesuai rentan.
 
-## Kontrol `if`
+## Kontrol _if_
 Stetement `if` memeriksa kondisi dan mengeksekusi perintah-perintah didalamnya jika _kondisi_ bernilai _true_.
 
 ```cpp
@@ -125,8 +118,7 @@ Contoh kode program:
 ```cpp
 if (x > 120) digitalWrite(LEDpin, HIGH);
 
-if (x > 120)
-    digitalWrite(LEDpin, HIGH);
+if (x > 120) digitalWrite(LEDpin, HIGH);
 
 if (x > 120) {digitalWrite(LEDpin, HIGH);}
 
@@ -146,11 +138,15 @@ _kondisi_ bisa berupa formula perbandingan nilai. Formula ini biasanya akan meng
 | `x <= y` | (x lebih kecil atau sama dengan y) |
 | `x >= y` | (x lebih besar atau sama dengan y) |
 
-Beware of accidentally using the single equal sign (e.g. if (x = 10) ). The single equal sign is the assignment operator, and sets x to 10 (puts the value 10 into the variable x). Instead use the double equal sign (e.g. if (x == 10) ), which is the comparison operator, and tests whether x is equal to 10 or not. The latter statement is only true if x equals 10, but the former statement will always be true.
-
-This is because C++ evaluates the statement if (x=10) as follows: 10 is assigned to x (remember that the single equal sign is the (assignment operator)), so x now contains 10. Then the 'if' conditional evaluates 10, which always evaluates to TRUE, since any non-zero number evaluates to TRUE. Consequently, if (x = 10) will always evaluate to TRUE, which is not the desired result when using an 'if' statement. Additionally, the variable x will be set to 10, which is also not a desired action.
+Waspadalah terhadap penggunaan tanda sama dengan tunggal secara tidak sengaja (misalnya `if (x = 10)` ). Tanda sama dengan tunggal adalah operator penugasan, dan mengisi `x` menjadi `10`. Sebagai gantinya gunakan tanda _sama dengan ganda_ (misalnya `if (x == 10)` ). Pernyataan terakhir hanya benar jika `x` sama dengan `10`, namun pernyataan sebelumnya selalu benar.
 
 sumber: https://www.arduino.cc/reference/en/language/structure/control-structure/if/
 
+## Loop _while_
 
-## Loop
+```cpp
+while(kondisi) {
+    // perintah 1
+    // perintah 2
+}
+```

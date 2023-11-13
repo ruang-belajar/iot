@@ -11,8 +11,8 @@ Rangkaian sederhana menggunaan komponen ultrasound:
 ```cpp
 double cm;
 
-int pinTrigger = 7;
-int pinEcho = 6;
+int pinTrigger = 7;  // NodeMCU: D8
+int pinEcho = 6;     // NOdeMCU: D7
 
 // function untuk membaca jarak
 double bacaJarak()

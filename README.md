@@ -14,6 +14,7 @@ Repositori ini digunakan untuk bahasa perkuliahan Web IoT di [STMIK Mardira Indo
 3. [Arduino](arduino-intro.md)
 
 **Setup IDE**
+- [Setup PlatformIO extension di VS Code](platformio.md)
 - [Cara Installl PlatformIO dan Mulai Menggunakan ESP32 (YouTube)](https://www.youtube.com/watch?v=jAl6a5tNwoI)
 - [How To Install PlatformIO (ESP32 + Arduino series)](https://www.youtube.com/watch?v=5edPOlQQKmo)
 
