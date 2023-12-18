@@ -26,6 +26,8 @@ Repositori ini digunakan untuk bahasa perkuliahan Web IoT di [STMIK Mardira Indo
 5. [Infrared Proximity](komponen-ir-proximity.md)
 6. [Infrared Receiver](komponen-ir-receiver.md)
 7. [Servo](komponen-servo.md)
+8. [Relay](komponen-relay.md)
+9. [Button](komponen-button.md)
 
 **Latihan:**
 1. [Folder Latihan @ Ruang Belajar IoT](https://github.com/ruang-belajar/iot/tree/main/latihan)

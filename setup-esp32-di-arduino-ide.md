@@ -21,9 +21,11 @@ Jika Anda menggunakan perangkat ESP32, Anda bisa menggunakan Arduino IDE untuk u
 
 4. Install telah selesai. Kemudian kita test.
    
-   Klik menu `Tools > Board: > ESP32 DEV Module`
+   Klik menu `Tools > Board: > ESP32 DEV Module`. Jika Anda menggunakan NodeMCU, Anda bisa pilih `NodeMCU 1.0 (ESP-12E Module)` (atau _board_ lain sesuai dengan microcontroller yang Anda kerjakan)
 
    ![](res/setup-esp-4.png)
+
+   
 
 5. Pilih socket COM:
 
@@ -63,5 +65,6 @@ Jika Anda menggunakan perangkat ESP32, Anda bisa menggunakan Arduino IDE untuk u
 
    ![](res/setup-esp-9.png)
 
-sumber:
-https://www.robotikindonesia.com/2020/01/cara-menggunakan-esp32-di-arduino-ide.html
+**Sumber:**
+- https://www.robotikindonesia.com/2020/01/cara-menggunakan-esp32-di-arduino-ide.html
+- https://www.instructables.com/Steps-to-Setup-Arduino-IDE-for-NODEMCU-ESP8266-WiF/
