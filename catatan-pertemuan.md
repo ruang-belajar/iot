@@ -27,5 +27,29 @@
 
 ## Pertemuan 4
 - Setup Visual Studio Code
-- Setup PlatformIO
 - Setup driver ModeMCU untuk Windows
+- [Setup PlatformIO](platformio.md)
+- Mulai [membuat project baru](new-project.md)
+
+## Pertemuan 5
+- Simple project
+
+## Pertemuan 6
+- Ultrasonic + LED
+  1. Ultrasonic + output Serial
+  2. Ultrasonic + 1 LED jika objek < 30cm
+  3. Ultrasonic + 2 LED jika objek < 20cm
+
+## Pertemuan 7
+- Ultrasonic + LED
+
+## Pertemuan 8
+- UTS
+
+
+## Pertemuan 9
+- [Rangkaian button + LED](komponen-button.md)
+- [Instalasi Arduino IDE](setup-esp32-di-arduino-ide.md)
+- Tugas:
+  - buat program, membuat toggle button yang menyalakan dan mematikan LED
+  - buat program, ketika tombol di tekan, LED akan menyala selama 5 detik, lalu mati

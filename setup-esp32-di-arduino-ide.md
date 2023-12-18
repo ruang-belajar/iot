@@ -1,6 +1,6 @@
-# Setup ESP32 di Arduino IDE
+# Setup ESP32/NodeMCU di Arduino IDE
 
-Jika Anda menggunakan perangkat ESP32, Anda bisa menggunakan Arduino IDE untuk upload program. Ikuti langkah-langkah berikuti supaya Arduino IDE bisa mengenali ESP32.
+Jika Anda menggunakan perangkat ESP32 atau NodeMCU, Anda bisa menggunakan Arduino IDE untuk upload program. Ikuti langkah-langkah berikuti supaya Arduino IDE bisa mengenali ESP32/NodeMCU.
 
 1. Buka Arduino IDE, kemudian klik Menu `File > Preferences`
    

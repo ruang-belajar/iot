@@ -17,6 +17,7 @@ Repositori ini digunakan untuk bahasa perkuliahan Web IoT di [STMIK Mardira Indo
 - [Setup PlatformIO extension di VS Code](platformio.md)
 - [Cara Installl PlatformIO dan Mulai Menggunakan ESP32 (YouTube)](https://www.youtube.com/watch?v=jAl6a5tNwoI)
 - [How To Install PlatformIO (ESP32 + Arduino series)](https://www.youtube.com/watch?v=5edPOlQQKmo)
+- [Setup Arduino IDE + ESP32/NodeMCU](setup-esp32-di-arduino-ide.md)
 
 **Panduan menggunakan komponen**
 1. [Breadboard](komponen-breadboard.md)
@@ -26,8 +27,8 @@ Repositori ini digunakan untuk bahasa perkuliahan Web IoT di [STMIK Mardira Indo
 5. [Infrared Proximity](komponen-ir-proximity.md)
 6. [Infrared Receiver](komponen-ir-receiver.md)
 7. [Servo](komponen-servo.md)
-8. [Relay](komponen-relay.md)
-9. [Button](komponen-button.md)
+8. [Button](komponen-button.md)
+9. [Relay](komponen-relay.md)
 
 **Latihan:**
 1. [Folder Latihan @ Ruang Belajar IoT](https://github.com/ruang-belajar/iot/tree/main/latihan)

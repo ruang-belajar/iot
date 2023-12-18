@@ -5,14 +5,6 @@ Ada bebeberapa alternatif program yang digunakan untuk mengembangkan program di 
 ## Download & Install Extension
 ![](res/platformio-1.jpg)
 
-## New Project
-![](res/platformio-2.jpg)
-
-![](res/platformio-3.webp)
-
-![](res/platformio-4.webp)
-
-📚 Untuk board, pilih _NodeMCU 1.0 (ESP-12E Module)_ (atau sesuai dengan microcontroller yang Anda gunakan)
 
 ---
 **Referensi:**
