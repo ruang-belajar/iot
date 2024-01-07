@@ -53,3 +53,12 @@
 - Tugas:
   - buat program, membuat toggle button yang menyalakan dan mematikan LED
   - buat program, ketika tombol di tekan, LED akan menyala selama 5 detik, lalu mati
+
+## Pertemuan 10
+- Kerjakan [Latihan 9](latihan/lat-09.md)
+- Ganti button & LED menggunakan relay, IR proximity, PIR.
+- Siapkan [Latihan 10](latihan/lat-10.md) (sebagai tugas)
+
+## Pertemuan 11
+- Bahas tugas [Latihan 10](latihan/lat-10.md)
+- Bahas [contoh project IoT](contoh-project.md)

@@ -6,7 +6,8 @@ Repositori ini digunakan untuk bahasa perkuliahan Web IoT di [STMIK Mardira Indo
 2.  [Pengenalan Tinkercad](tinkercad.md)
 3.  [Bahasa C untuk Arduino](arduino-c.md)
 4.  [Perangkat yang perlu dipersiapkan](persiapan-perangkat.md)
-5.  [📝 Catatan Pertemuan](catatan-pertemuan.md)
+5.  [Contoh Project](contoh-project.md)
+6.  [📚 Catatan Pertemuan](catatan-pertemuan.md)
 
 **_Micro Controler_**
 1. [NodeMCU ESP8266 v3](esp8266-nodemcu-intro.md)
@@ -29,6 +30,7 @@ Repositori ini digunakan untuk bahasa perkuliahan Web IoT di [STMIK Mardira Indo
 7. [Servo](komponen-servo.md)
 8. [Button](komponen-button.md)
 9. [Relay](komponen-relay.md)
+10. [🔗 Berbagai macam sensor Arduino beserta fungsinya](https://www.arduinoindonesia.id/2022/11/berbagai-macam-sensor-arduino-beserta-fungsinya.html) 
 
 **Latihan:**
 1. [Folder Latihan @ Ruang Belajar IoT](https://github.com/ruang-belajar/iot/tree/main/latihan)
