@@ -31,6 +31,7 @@ Repositori ini digunakan untuk bahasa perkuliahan Web IoT di [STMIK Mardira Indo
 8. [Button](komponen-button.md)
 9. [Relay](komponen-relay.md)
 10. [🔗 Berbagai macam sensor Arduino beserta fungsinya](https://www.arduinoindonesia.id/2022/11/berbagai-macam-sensor-arduino-beserta-fungsinya.html) 
+11. [Menghubungkan mikrokontroller dengan Wifi](wifi.md)
 
 **Latihan:**
 1. [Folder Latihan @ Ruang Belajar IoT](https://github.com/ruang-belajar/iot/tree/main/latihan)

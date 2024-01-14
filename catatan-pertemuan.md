@@ -62,3 +62,10 @@
 ## Pertemuan 11
 - Bahas tugas [Latihan 10](latihan/lat-10.md)
 - Bahas [contoh project IoT](contoh-project.md)
+
+## Pertemuan 12
+- Intro IoT Platform: [Ubidots](https://ubidots.com/)
+- 
+
+## Pertemuan 13
+- 
