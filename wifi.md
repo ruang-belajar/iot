@@ -9,7 +9,7 @@ Berikut contoh program untuk scan wifi dalam jangkauan perangkat.
 #include <ESP8266WiFi.h>
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
   Serial.println(F("\nESP8266 WiFi scan example"));
 
   // Set WiFi to station mode

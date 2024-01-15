@@ -48,9 +48,9 @@ void loop() {
   float value1 = random(0, 9) * 10;
   float value2 = random(0, 9) * 100;
   float value3 = random(0, 9) * 1000;
-  ubidots.add("Variable_Name_One", value1);// Change for your variable name  
-  ubidots.add("Variable_Name_Two", value2);
-  ubidots.add("Variable_Name_Three", value3);
+  ubidots.add("Variabel1", value1);
+  ubidots.add("Variabel2", value2);
+  ubidots.add("Variabel3", value3);
   
   bool bufferSent = false;
   bufferSent = ubidots.send(); // Will send data to a device label that matches the device Id
