@@ -78,6 +78,7 @@ void loop() {
 const char* UBIDOTS_TOKEN = "...";  // Put here your Ubidots TOKEN
 const char* WIFI_SSID = "..."; // Put here your Wi-Fi SSID
 const char* WIFI_PASS = "..."; // Put here your Wi-Fi password
+const char* DEVICE_ID = "XXXXX"; 
 
 Ubidots ubidots(UBIDOTS_TOKEN, UBI_HTTP);
 
@@ -100,7 +101,7 @@ void setup() {
 
 void loop() {
   /* Obtain last value from a variable as float using HTTP */
-  float value = ubidots.get("a020a6133e21", "variable_name_one");
+  float value = ubidots.get(DEVICE_ID, "Variabel1");
 
   // Evaluates the results obtained
   if (value != ERROR_VALUE) {
