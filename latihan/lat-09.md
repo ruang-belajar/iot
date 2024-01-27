@@ -1,5 +1,7 @@
 # Latihan 09
 
+![](../res/button-1.jpg)
+
 Buat rangkaian yang terdiri dari 1 LED dan 1 tombol.\
 Buat program sebagai berikut:
 
