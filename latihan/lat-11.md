@@ -1,5 +1,7 @@
 # Latihan 11
 
+![](res/lat-11-01.png)
+
 Lengkapi program dibawah ini dengan memberikan nilai/perintah yang tepat pada bagian yang ditandai dengan `_____`
 
 ```cpp
